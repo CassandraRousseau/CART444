@@ -10,11 +10,18 @@ var urls = [
     "https://cassandrarousseau.github.io/CART444/Pages/sculpting.html",
     // Add more URLs as needed
 ];
-// Function to generate a random URL and redirect to it
-function redirectToRandomPage() {
-    var randomIndex = Math.floor(Math.random() * urls.length);
-    var randomUrl = urls[randomIndex];
-    window.open(randomUrl, '_blank');
+var pagesCount;
+
+function addWebsite(){
+    var randompage = Math.floor(Math.random() * diary.length);
+    window.location.replace("index" + randompage + ".html");
+    pagesCount + 1;
 }
+// Function to generate a random URL and redirect to it
+// function redirectToRandomPage() {
+//     var randomIndex = Math.floor(Math.random() * urls.length);
+//     var randomUrl = urls[randomIndex];
+//     window.open(randomUrl, '_blank');
+// }
 // Event listener for button click
-document.getElementById('randomButton').addEventListener('click', redirectToRandomPage);
+document.getElementById('randomButton').addEventListener('click', addWebsite);
