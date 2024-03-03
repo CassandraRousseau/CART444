@@ -1,4 +1,3 @@
-// Array of URLs
 var urls = [
     "https://cassandrarousseau.github.io/CART444/Pages/animation.html",
     "https://cassandrarousseau.github.io/CART444/Pages/dance.html",
@@ -7,21 +6,16 @@ var urls = [
     "https://cassandrarousseau.github.io/CART444/Pages/game-development.html",
     "https://cassandrarousseau.github.io/CART444/Pages/painting.html",
     "https://cassandrarousseau.github.io/CART444/Pages/photography.html",
-    "https://cassandrarousseau.github.io/CART444/Pages/sculpting.html",
+    "https://cassandrarousseau.github.io/CART444/Pages/sculpting.html"
     // Add more URLs as needed
 ];
-var pagesCount;
 
-function addWebsite(){
-    var randompage = Math.floor(Math.random() * diary.length);
-    window.location.replace("index" + randompage + ".html");
-    pagesCount + 1;
-}
 // Function to generate a random URL and redirect to it
-// function redirectToRandomPage() {
-//     var randomIndex = Math.floor(Math.random() * urls.length);
-//     var randomUrl = urls[randomIndex];
-//     window.open(randomUrl, '_blank');
-// }
+function redirectToRandomPage() {
+    var randomIndex = Math.floor(Math.random() * urls.length);
+    var randomUrl = urls[randomIndex];
+    window.location.replace(randomUrl);
+}
+
 // Event listener for button click
-document.getElementById('randomButton').addEventListener('click', addWebsite);
+document.getElementById('randomButton').addEventListener('click', redirectToRandomPage);
