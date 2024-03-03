@@ -14,8 +14,8 @@
 
   body {
     font-family: 'Comfortaa', sans-serif;
-    background-color: #FFE1E1;
-    color:#8F312D;
+    background-color: #423531;
+    color:#EEECEB;
   }
 .button-container {
   display: flex; /* Use flexbox to create a horizontal layout */
@@ -28,10 +28,10 @@
 }
 .buttonL,
 .buttonR {
-  background-color: #2C1913;
+  background-color: #E3CACB;
   font-family: 'Comfortaa', sans-serif;
   font-size: 5vw;
-  color: white;
+  color: #2C3130;
   border: none;
   padding: 7vw; /* Adjusted padding: 150px top/bottom, 50px left/right */
   text-decoration: none;
