@@ -12,10 +12,9 @@ var urls = [
 ];
 // Function to generate a random URL and redirect to it
 function redirectToRandomPage() {
-    var randomIndex = Math.floor(Math.random() * urls.length); // Generate a random index
-    var randomUrl = urls[randomIndex]; // Get the URL at the random index
-    window.location.href = randomUrl; // Redirect to the random URL
+    var randomIndex = Math.floor(Math.random() * urls.length);
+    var randomUrl = urls[randomIndex];
+    window.open(randomUrl, '_blank');
 }
-
 // Event listener for button click
 document.getElementById('randomButton').addEventListener('click', redirectToRandomPage);
