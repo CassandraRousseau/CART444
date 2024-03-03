@@ -57,32 +57,6 @@
   opacity: 0.6;
 
 }
-.buttonMenu {
-  background-color:#EEDFE0;
-  font-size: 2.5vw;
-  font-family: 'Atkinson Hyperlegible', sans-serif;
-  color:#462526;
-  transition-duration: 0.4s;
-  border:none;
-  padding: calc(25px + 1.5625vw); /* Adjusted padding: 150px top/bottom, 50px left/right */
-  text-decoration: none;
-  cursor: pointer;
-  opacity:1;
-  display: inline-block;
-  width: 33.4%;
-  justify-content: center; /* Center the buttons horizontally */
-  align-items: center; /* Center the buttons vertically */
-  overflow: hidden;
-  text-align: center; /* center the text */
-  height: auto;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
-  margin: -2.5px; /* 4px is the total horizontal space between buttons (2px on each side) */
-  letter-spacing: normal; /* Reset the letter spacing */
-}
-  .buttonMenu:hover {
-    opacity: 0.6;
-
-  }
 .animated-page {
   position: absolute;
   width: 100%;

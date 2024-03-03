@@ -1,34 +1,23 @@
 $(document).ready(function() {
-    // Function to handle fading out, loading, and fading in content
-    function loadAndFadeInPages(pageUrl) {
-        // Clear animation classes from buttons
-        $(".buttonL, .buttonR").removeClass("slide-out");
-
-        // Slide out buttons
-        $(".buttonL").each(function(index) {
-            var $button = $(this);
-            setTimeout(function() {
-                $button.addClass("slide-out");
-            }, index * 100); // Adjust the delay as needed
-        });
-
-        // Slide out right buttons
-        $(".buttonR").each(function(index) {
-            var $button = $(this);
-            setTimeout(function() {
-                $button.addClass("slide-out");
-            }, index * 100); // Adjust the delay as needed
-        });
-
-        // After animations, load new content
-        setTimeout(function() {
-            $(".page-container").fadeOut(800, function() {
-                $(".page-container").load(pageUrl, function() {
+    // Function to fade out and load content
+    function loadAndFadeInContent(pageUrl) {
+        $(".page-container").fadeOut(800, function() {
+            $(".page-container").load(pageUrl, function() {
                     $(".page-container").fadeIn(800);
                 });
             });
-        });
-    }
+    };
+
+    // Event delegation for menu buttons
+    $("body").on("click", ".fadeAbout", function(event) {
+        // Load and fade in content for About
+        loadAndFadeInContent("Pages/about.html");
+    });
+
+    $("body").on("click", ".fadeResume", function(event) {
+        // Load and fade in content for Resume
+        loadAndFadeInContent("Pages/resume.html");
+    });
 
     // Event delegation for animated-page buttons
     $(".page-container").on("click", "#fadeAnim", function(event) {
