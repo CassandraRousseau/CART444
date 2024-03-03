@@ -4,11 +4,12 @@ $('a').click(function(e) {
     $('body').fadeOut('slow', newpage);
 });
 
+
 function newpage() {
     window.location = newLocation;
 }
 
 $(document).ready(function(){
-    $('body').css('display', 'none');
     $('body').fadeIn('slow');
 });
+
