@@ -1,26 +1,7 @@
-$(document).ready(function() {
-    // Function to handle fading out, loading, and fading in content
-    function loadAndFadeInPages(pageUrl) {
-        // Clear animation classes from buttons
-        $(".buttonR").removeClass("slide-out");
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
 
-        // Slide out right buttons
-        $(".buttonR").each(function(index) {
-            var $button = $(this);
-            setTimeout(function() {
-                $button.addClass("slide-out");
-            }, index * 100); // Adjust the delay as needed
-        });
-        <button type="button" class="buttonR" id="fadeAnim">Animation</button>
-        <button type="button" class="buttonR" id="fadeDance">Dance</button>
-            <button type="button"   class="buttonR" id="fadeDes" >Design</button>
-            <button type="button" class="buttonR" id="fadeDraw" >Drawing</button>
-            <button type="button"   class="buttonR" id="fadeGameDev">Game Dev</button>
-            <button type="button"  class="buttonR" id="fadePaint" >Painting</button>
-            <button type="button"  class="buttonR" id="fadePhoto" >Photography</button>
-            <button type="button" class="buttonR" id="fadeSculpt" >Sculpting</button>
-        <button type="button" className="buttonR" id="fadeAbout">About</button>
-        <button type="button" className="buttonR" id="fadeResume">Resume</button>
-    }
-
-});
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
