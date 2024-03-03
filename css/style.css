@@ -104,27 +104,19 @@
     padding: 25px; /* some padding */
     text-align: center; /* center the text */
   }
-/* Define the sliding animation */
-@keyframes slideOutLeft {
+@keyframes fadeInUp {
   0% {
-    transform: translateX(0);
-    opacity: 1;
+    transform: translateY(100%);
+    opacity: 0;
   }
   100% {
-    transform: translateX(-100%);
-    opacity: 0;
+    transform: translateY(0%);
+    opacity: 1;
   }
 }
 
-@keyframes slideOutRight {
-  0% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(100%);
-    opacity: 0;
-  }
+.fadeInUp-animation {
+  animation: 1.5s fadeInUp;
 }
 
 /* Apply the animation to the buttons */
