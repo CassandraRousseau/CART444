@@ -10,5 +10,5 @@ function newpage() {
 
 $(document).ready(function(){
     $('body').css('display', 'none');
-    $('body').fadeIn(500);
+    $('body').fadeIn('slow');
 });
