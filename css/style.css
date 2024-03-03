@@ -21,8 +21,6 @@
   height: 100%;
   width: 0;
   position: fixed;
-  transform: translate(100vw, 0);
-  -ms-transform: translatex(-100vw);
   z-index: 1;
   top: 0;
   right: 0;
@@ -30,11 +28,6 @@
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-
-/*  right: 0;*/
-/*  top: 0;*/
-/*  height: 100vh;*/
-/*  width: 100vw;*/
 
 }
 
