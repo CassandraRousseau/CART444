@@ -1,17 +1,17 @@
 $(document).ready(function() {
     // Function to fade out and load content
     function loadAndFadeInContent(pageUrl) {
-
+        $(".page-container").fadeOut(800, function() {
+            $(".page-container").load(pageUrl, function() {
+                    $(".page-container").fadeIn(800);
+                });
+            });
     };
 
     // Event delegation for menu buttons
     $("body").on("click", ".fadeAbout", function(event) {
         // Load and fade in content for About
-        $(".page-container").fadeOut(800, function() {
-            $(".page-container").load(pageUrl, function() {
-                $(".page-container").fadeIn(800);
-            });
-        });
+        loadAndFadeInContent("Pages/about.html");
     });
 
     $("body").on("click", ".fadeResume", function(event) {
