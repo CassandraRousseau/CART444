@@ -7,7 +7,7 @@ var urls = [
     "https://cassandrarousseau.github.io/CART444/Pages/game-development.html",
     "https://cassandrarousseau.github.io/CART444/Pages/painting.html",
     "https://cassandrarousseau.github.io/CART444/Pages/photography.html",
-    "https://cassandrarousseau.github.io/CART444/Pages/sculpting.html"
+    "https://cassandrarousseau.github.io/CART444/Pages/sculpting.html",
     // Add more URLs as needed
 ];
 // Function to generate a random URL and redirect to it
