@@ -8,8 +8,12 @@
 /* Increase the font size of the <h1> element */
 h1 {
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif', sans-serif;
-  font-size: 8vw;
+  font-size: 104px;
   text-align: center; /* center the text */
+}
+
+button{
+  font-size: 14px;
 }
 
 body {
@@ -34,7 +38,7 @@ body {
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 16px;
   color: #818181;
   display: block;
   transition: 0.3s;
