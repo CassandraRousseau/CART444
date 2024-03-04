@@ -59,106 +59,29 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
-.button-container {
-  justify-content: space-between;
-  display: flex;
-}
-.buttonL,
-.buttonR {
-  background-color: #2C1913;
-  font-family: 'Comfortaa', sans-serif;
-  font-size: 5vw;
-  color: white;
+.buttons {
+  font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
+  background-color: #E3CACB;
+  font-size: 14px;
+  color:#2C3130;
   border: none;
-  padding: calc(100px + 1.5625vw); /* Adjusted padding: 150px top/bottom, 50px left/right */
+  padding: 40px; /* Adjusted padding: 150px top/bottom, 50px left/right */
   text-decoration: none;
   cursor: pointer;
   opacity: 1;
-  width: 50%;
   align-items: center; /* Center the buttons vertically */
-  margin: 0;
-  transition: transform 0.5s, opacity 1s;
+  margin: 60px;
+  display: inline;
+  justify-content: space-between;
+  width: 800px;
+  height:400px;
+  border-radius: 20px;
 }
-
-/* Apply width to both left and right buttons in the same row */
-.button-container .buttonL,
-.button-container .buttonR {
-  width: 50%; /* Adjusted width to create space between buttons */
-}
-  
-  .button01:hover {
-    opacity: 0.6;
-   background-image:url("../images/eagle-arm.jpg");
-    background-size:100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-  .button02:hover {
-    opacity: 0.6;
-   background-image:url("../images/esprit-fer.jpg");
-    background-size:50% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .button03:hover {
-    opacity: 0.6;
-   background-image:url("../images/esprits-marais.jpg");
-    background-size:75% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .button04:hover {
-    opacity: 0.6;
-   background-image:url("../images/folded-concrete.jpg");
-    background-size:75% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .button05:hover {
-    
-    opacity: 0.6;
-   background-image:url("../images/fond-mers.jpg");
-    background-size:50% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .button06:hover {
-    opacity: 0.6;
-   background-image:url("../images/hybride.jpg");
-    background-size:50% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-
-.buttonMenu {
-  background-color:#6E5750;
-  font-size: 2.5vw;
-  font-family: 'Comfortaa', sans-serif;
-  color:white;
-  transition-duration: 0.4s;
-  border:none;
-  padding: calc(25px + 1.5625vw); /* Adjusted padding: 150px top/bottom, 50px left/right */
-  text-decoration: none;
-  cursor: pointer;
-  opacity:1;
-  display: inline-block;
-  width: 33.4%;
-  justify-content: center; /* Center the buttons horizontally */
-  align-items: center; /* Center the buttons vertically */
-  overflow: hidden;
-  text-align: center; /* center the text */
-  height: auto;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
-  margin: -2.5px; /* 4px is the total horizontal space between buttons (2px on each side) */
-  letter-spacing: normal; /* Reset the letter spacing */
-}
-
-.buttonMenu:hover {
+.buttons:hover {
   opacity: 0.6;
-
+  transition: opacity 0.5s;
 }
+
   .parallax {
     height: 500px; /* fallback for older browsers */
     height: 100vh;
@@ -353,18 +276,6 @@ img {
   margin-right:1vw;
 }
 .icon:hover {
-  opacity: 0.6;
-  transition: opacity 0.5s;
-}
-.fadeHome{
-  float: left;
-  top:0;
-  left:0;
-  margin-left: 1vw;
-  width:3vw;
-  height:6vh;
-}
-.fadeHome:hover {
   opacity: 0.6;
   transition: opacity 0.5s;
 }
