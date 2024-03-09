@@ -6,9 +6,10 @@
     </head>
     <body>
     <div class="page-container"> <!-- New container div -->
-      <div class="header">
-        <h1>Design</h1>
-      </div>
+        <div>
+          <img id="menu" onclick="openNav()"src="../images/CART444_menu.png"></div>
+        <h1>Cassandra Rousseau</h1>
+        <h2>Design</h2>
           <button class="buttons" id="button01" onclick="ani(this.id)">Do you Remember MYSPACE?</button>
         <button  class="buttons" id="button02" onclick="ani(this.id)">FMRL</button>
           <button  class="buttons" id="button03" onclick="ani(this.id)">Invisible</button>
@@ -184,6 +185,9 @@
       <footer>
       </footer>
     </div>
+    <script src="../js/menu.js"></script>
+    <script src="../js/loadingPages.js" ></script>
+    <script src="../js/generatePages.js"></script>
     <script>
       function ani(buttonId) {
         var formId = buttonId.replace("button", 'form'); // Assuming buttonId follows a pattern like 'button01', 'button02', etc.
