@@ -76,6 +76,7 @@ body {
   width: 800px;
   height:400px;
   border-radius: 20px;
+  transform-origin: center;
 }
 .buttons:hover {
   opacity: 0.6;
@@ -118,7 +119,6 @@ body {
     width:1162px;
     height:700px;
     background-color: #FFE1E1;
-    -webkit-animation-name: cssAnimation;
     -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-timing-function: ease;
@@ -152,6 +152,26 @@ body {
   * {
     box-sizing: border-box;
   }
+  #form01{
+    -webkit-animation-name: cssAnimation;
+  }
+
+  #form02{
+    -webkit-animation-name: cssAnimation02;
+  }
+  #form03{
+    -webkit-animation-name: cssAnimation03;
+  }
+
+  #form04{
+    -webkit-animation-name: cssAnimation04;
+  }
+  #form05{
+    -webkit-animation-name: cssAnimation05;
+  }
+  #form06{
+    -webkit-animation-name: cssAnimation06;
+  }
 h2{
   margin-left: 2vw;
   margin-right:2vw;
@@ -164,7 +184,6 @@ h2{
   margin-left: 35vw;
 }
 img {
-  display:block;
   margin-left: 50px;
   float: left;
   width:500px;
@@ -172,22 +191,14 @@ img {
   margin-bottom: 20vw;
 }
 video {
-  display:block;
   margin-left: 50px;
   float: left;
   width:500px;
   height:371px;
-  -webkit-animation-name: cssAnimation;
-  -webkit-animation-duration: 3s;
-  -webkit-animation-iteration-count: 1;
-  -webkit-animation-timing-function: ease;
-  -webkit-animation-fill-mode: forwards;
 }
-  /* Hide the images by default */
-  .mySlides {
-    display: none;
-  }
-  
+.mySlides01, .mySlides02, .mySlides03, .mySlides04, .mySlides05{
+  display:none;
+}
   /* Add a pointer when hovering over the thumbnail images */
   .cursor {
     cursor: pointer;
@@ -297,16 +308,57 @@ video {
 
 @-webkit-keyframes cssAnimation {
   from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-1100px, 100px);
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-50%,10%);
   }
   to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0%,0%);
   }
-@-webkit-keyframes cssAnimationImg {
+
+}
+
+@-webkit-keyframes cssAnimation02 {
   from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-1100px, 100px);
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(50%,10%);
   }
   to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0%,0%);
   }
+
+}
+
+@-webkit-keyframes cssAnimation03 {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-50%,10%);
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0%,0%);
+  }
+
+}
+
+@-webkit-keyframes cssAnimation04 {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(50%,10%);
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0%,0%);
+  }
+
+}
+@-webkit-keyframes cssAnimation05 {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-50%,10%);
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0%,0%);
+  }
+}
+@-webkit-keyframes cssAnimation06 {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(50%,10%);
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0%,0%);
+  }
+
 }
