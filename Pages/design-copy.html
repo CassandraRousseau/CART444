@@ -16,7 +16,7 @@
         <button  id="btn05" class="buttons" >Self</button>
           <button  id="btn06" class="buttons">The Bustle & Beyond</button>
         <div class="form-container" id="myForm01">
-            <button type="button" id="closebtn" class="btn cancel" onclick="close()">Close</button>
+            <button type="button" id="closebtn" class="btn cancel" onclick="closeWindow()">Close</button>
             <h2>Do you Remember MYSPACE? (2021)</h2>
             <div class="description">
             <p><strong>Project based on the video Do You Remember MYSPACE?. Worked on web design, graphic design and coding.<br>Website made in collaboration with Abigail Lopez, used HTML,CSS and Javascript.<br>Video lasting 0:35min.</strong></p>
@@ -72,13 +72,23 @@
           button.style.pointerEvents = "none";
         });
               }
-      function close(){
-        var closeElement = document.getElementById("closebtn");
-        if (closeElement) {
-          closeElement.style.display = 'none';
-        } else {
-          console.log("Element with ID 'closebtn' not found");
-        }
+      function closeWindow() {
+          console.log("Close function called");
+          document.getElementById("myForm01").style.display = "none";
+          var buttons = document.querySelectorAll('.buttons');
+
+          buttons.forEach(function(button) {
+              button.style.opacity = 1; // Reset opacity to 1
+              button.style.pointerEvents = "auto"; // Re-enable pointer events
+          });
+      }
+        // var closeElement = document.getElementById("closebtn");
+        // if (closeElement) {
+        //   closeElement.style.display = 'none';
+        // } else {
+        //   console.log("Element with ID 'closebtn' not found");
+        // }
+
         // document.getElementById("myForm01").style.display = "none";
         // $( "#myForm01" ).fadeOut( "slow", function() {
         //   // Animation complete.
@@ -89,7 +99,6 @@
         //   button.style.opacity = 1;
         //   button.style.transition = "opacity 0.5s";
         // });
-      }
     </script>
 
       </body>
