@@ -14,9 +14,9 @@
           <button  id="btn03" class="buttons" >Invisible</button>
         <button  id="btn04" class="buttons" My Body is not a Product!</button>
         <button  id="btn05" class="buttons" >Self</button>
-          <button  id="btn06" class="buttons" ">The Bustle & Beyond</button>
+          <button  id="btn06" class="buttons">The Bustle & Beyond</button>
         <div class="form-container" id="myForm01">
-            <button type="button" class="btn cancel" ">Close</button>
+            <button type="button" id="closebtn" class="btn cancel" onclick="close()">Close</button>
             <h2>Do you Remember MYSPACE? (2021)</h2>
             <div class="description">
             <p><strong>Project based on the video Do You Remember MYSPACE?. Worked on web design, graphic design and coding.<br>Website made in collaboration with Abigail Lopez, used HTML,CSS and Javascript.<br>Video lasting 0:35min.</strong></p>
@@ -71,22 +71,25 @@
           button.style.transition = "opacity 0.5s";
           button.style.pointerEvents = "none";
         });
-
-         // Adjust the timing to match the transition duration
-        // const x =  document.getElementsByClassName("buttons");
-        // x.style.display = "none";
-
-
-        // document.getElementById('myForm01').className = 'img-container';
-//         const buttons = document.querySelectorAll('button');
-//
-// // Add click event listener to each button
-//         buttons.forEach(button => {
-//           button.addEventListener('click', () => {
-//             div.classList.add('hidden')
-//           });
-//         });
               }
+      function close(){
+        var closeElement = document.getElementById("closebtn");
+        if (closeElement) {
+          closeElement.style.display = 'none';
+        } else {
+          console.log("Element with ID 'closebtn' not found");
+        }
+        // document.getElementById("myForm01").style.display = "none";
+        // $( "#myForm01" ).fadeOut( "slow", function() {
+        //   // Animation complete.
+        // });
+        // var buttons = document.querySelectorAll('.buttons');
+        //
+        // buttons.forEach(function(button) {
+        //   button.style.opacity = 1;
+        //   button.style.transition = "opacity 0.5s";
+        // });
+      }
     </script>
 
       </body>

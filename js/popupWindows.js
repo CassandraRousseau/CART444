@@ -1,14 +1,4 @@
 
-//     $(document).ready(function(){
-//     $("button").click(function(){
-//         $("div").animate({
-//             left: '250px',
-//             opacity: '0.5',
-//             height: '150px',
-//             width: '150px'
-//         });
-//     });
-// });
     let slideIndex = 1;
     let slideIndex02 = 1;
     let slideIndex03 = 1;
