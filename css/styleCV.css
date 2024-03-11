@@ -30,7 +30,18 @@ h4 {
     font-size: 24px;
     margin-left: 2vw;
 }
-
+.headlines{
+    font-size: 24px;
+    margin-left: 2vw;
+}
+p {
+    font-size: 16px;
+    margin-left: 2vw;
+}
+li{
+    font-size: 16px;
+    margin-left: 2vw;
+}
 #menu{
     width:100px;
     height:100px;
@@ -179,4 +190,21 @@ body {
     border-radius: 8vw;
     padding:1%;
     color:#2C3130;
+}
+.bubble-left{
+    background-color: #FFE1E1;
+    border-radius: 8vw;
+    padding:1%;
+    color:#2C3130;
+    width: 40%;
+}
+.bubble-right{
+    background-color: #FFE1E1;
+    border-radius: 8vw;
+    padding:1%;
+    color:#2C3130;
+    width: 40%;
+    left: width;
+    margin-left: auto; /* Pushes the image to the right */
+
 }
