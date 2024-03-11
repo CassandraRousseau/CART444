@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+header{
+    font-family: 'Atkinson Hyperlegible', 'Roboto Serif', sans-serif;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: left /* Center items horizontally */
+    text-align: center; /* Center text */
+}
+/* Increase the font size of the <h1> element */
+h1 {
+
+    font-size: 104px;
+    margin-left: 1vw;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+h2 {
+    font-size: 64px;
+    margin-left: 2vw;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+h3 {
+    font-size: 40px;
+    margin-left: 2vw;
+}
+h4 {
+    font-size: 24px;
+    margin-left: 2vw;
+}
+
+#menu{
+    width:100px;
+    height:100px;
+    top: 8px;
+    right: 16px;
+    left: width;
+    margin-left: auto; /* Pushes the image to the right */
+    margin-right: 1vw; /* Pushes the image to the right */
+    margin-top: 1vw; /* Pushes the image to the right */
+}
+button{
+    font-size: 14px;
+}
+body {
+    font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
+    background-color: #423531;
+    color:#EEECEB;
+    text-align: left; /* center the text */
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+.parallax {
+    height: 500px; /* fallback for older browsers */
+    width: 100vh;
+    font-size: 200%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+}
+
+.parallax__group {
+    position: relative;
+    height: 500px; /* fallback for older browsers */
+    width: 100vh;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+/* Add styles to the form container */
+
+
+
+.description{
+    text-align: right;
+    height: 8vh;
+    width: 20vw;
+    padding-left: 1vw;
+    margin-left: 35vw;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+
+.footer {
+    padding: 25px; /* some padding */
+    position: relative; /* Ensure positioning context for absolute positioning */
+}
+
+#shuffle{
+    width: 100px;
+    height: 100px;
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    right: 25px; /* Adjust right position */
+}
+.icon:hover {
+    opacity: 0.6;
+    transition: opacity 0.5s;
+}
+@-webkit-keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+.bubble{
+    background-color: #FFE1E1;
+    border-radius: 8vw;
+    padding:1%;
+    color:#2C3130;
+}
