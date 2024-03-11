@@ -5,11 +5,24 @@
   <link rel="stylesheet" href="../css/pageStyleProjects.css" />
     </head>
     <body>
-    <div class="page-container"> <!-- New container div -->
-        <div>
-          <img id="menu" onclick="openNav()"src="../images/CART444_menu.png"></div>
+    <header>    <img id="menu" onclick="openNav()"src="../images/CART444_menu.png">
         <h1>Cassandra Rousseau</h1>
-        <h2>Design</h2>
+        <h2>Design</h2></header>
+
+    <div id="mySidenav" class="sidenav">
+        <img class="closebtn" onclick="closeNav() "src="images/email-icon.png">
+        <a href="../Pages/animation.html">Animation</a>
+        <a href="../Pages/dance.html">Dance</a>
+        <a href="../Pages/design.html">Design</a>
+        <a href="../Pages/drawing.html"  >Drawing</a>
+        <a href="../Pages/game-development.html" >Game Dev</a>
+        <a href="../Pages/painting.html" >Painting</a>
+        <a href="../Pages/photography.html"  >Photography</a>
+        <a href="../Pages/sculpting.html"  >Sculpting</a>
+        <a href="../Pages/about.html" >About</a>
+        <a href="../Pages/resume.html">CV</a>
+    </div>
+
           <button class="buttons" id="button01" onclick="ani(this.id)">Do you Remember MYSPACE?</button>
         <button  class="buttons" id="button02" onclick="ani(this.id)">FMRL</button>
           <button  class="buttons" id="button03" onclick="ani(this.id)">Invisible</button>
@@ -18,7 +31,7 @@
           <button  class="buttons" id="button06" onclick="ani(this.id)">The Bustle & Beyond</button>
         <div id="form01" class="form-container">
             <button type="button" class="btn cancel" onclick="closeWindow('form01')">Close</button>
-            <h2>Do you Remember MYSPACE? (2021)</h2>
+            <h3>Do you Remember MYSPACE? (2021)</h3>
             <div class="description">
             <p><strong>Project based on the video Do You Remember MYSPACE?. Worked on web design, graphic design and coding.<br>Website made in collaboration with Abigail Lopez, used HTML,CSS and Javascript.<br>Video lasting 0:35min.</strong></p>
             <a href="https://www.figma.com/proto/t1BYhrvZJqOLV0whUjU7N6/UX-Victorian"  target="_blank" ><strong>Click here to test the website</strong></a><br/><br/>
@@ -26,21 +39,21 @@
           <div class="slideshow-container">
             <div class="mySlides01">
               <div class="numbertext">1 / 4</div>
-              <video controls>
+              <video class="imgFormat" class="imgFormat" controls>
                 <source src="../images/myspace.mp4" type="video/mp4">
               </video>
             </div>
             <div class="mySlides01">
               <div class="numbertext">2 / 4</div>
-              <img src="../images/myspace01.PNG" alt="The Woods">
+              <img class="imgFormat" src="../images/myspace01.PNG" alt="The Woods">
             </div>
             <div class="mySlides01">
               <div class="numbertext">3 / 4</div>
-              <img src="../images/myspace02.PNG">
+              <img class="imgFormat" src="../images/myspace02.PNG">
             </div>
             <div class="mySlides01">
               <div class="numbertext">4 / 4</div>
-              <img src="../images/myspace03.PNG" alt="The Woods">
+              <img class="imgFormat" src="../images/myspace03.PNG" alt="The Woods">
             </div>
           <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
           <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
@@ -59,25 +72,25 @@
 
         <div class="mySlides02">
               <div class="numbertext">1 / 5</div>
-              <video controls>
+              <video class="imgFormat" class="imgFormat" controls>
                 <source src="../images/fmrl.mp4" type="video/mp4">
               </video>
             </div>
               <div class="mySlides02">
             <div class="numbertext">2 / 5</div>
-            <img src="../images/fmrl02.PNG" alt="The Woods">
+            <img class="imgFormat" src="../images/fmrl02.PNG" alt="The Woods">
               </div>
           <div class="mySlides02">
             <div class="numbertext">3 / 5</div>
-            <img src="../images/fmrl03.PNG">
+            <img class="imgFormat" src="../images/fmrl03.PNG">
           </div>
           <div class="mySlides02">
             <div class="numbertext">4 / 5</div>
-            <img src="../images/fmrl04.PNG" alt="The Woods">
+            <img class="imgFormat" src="../images/fmrl04.PNG" alt="The Woods">
           </div>
           <div class="mySlides02">
             <div class="numbertext">5 / 5</div>
-            <img src="../images/fmrl05.PNG">
+            <img class="imgFormat" src="../images/fmrl05.PNG">
           </div>
         <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
@@ -94,25 +107,25 @@
           <div class="slideshow-container">
           <div class="mySlides03">
                 <div class="numbertext">1 / 5</div>
-                <video controls>
+                <video class="imgFormat" controls>
                   <source src="../images/invisible-video.mp4" type="video/mp4">
                 </video>
               </div>
             <div class="mySlides03">
               <div class="numbertext">2 / 5</div>
-              <img src="../images/invisible01.PNG" alt="The Woods">
+              <img class="imgFormat" src="../images/invisible01.PNG" alt="The Woods">
             </div>
             <div class="mySlides03">
               <div class="numbertext">3 / 5</div>
-              <img src="../images/invisible02.PNG">
+              <img class="imgFormat"src="../images/invisible02.PNG">
             </div>
             <div class="mySlides03">
               <div class="numbertext">4 / 5</div>
-              <img src="../images/invisible03.PNG" >
+              <img class="imgFormat" src="../images/invisible03.PNG" >
             </div>
             <div class="mySlides03">
               <div class="numbertext">5 / 5</div>
-              <img src="../images/invisible04.PNG" >
+              <img class="imgFormat" src="../images/invisible04.PNG" >
             </div>
           <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
           <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
@@ -128,15 +141,15 @@
         <div class="slideshow-container">
           <div class="mySlides04">
             <div class="numbertext">1 / 3</div>
-            <img src="../images/body-product.jpg" alt="The Woods">
+            <img class="imgFormat" src="../images/body-product.jpg" alt="The Woods">
           </div>
           <div class="mySlides04">
             <div class="numbertext">2 / 3</div>
-            <img src="../images/body-product02.jpg">
+            <img class="imgFormat" src="../images/body-product02.jpg">
           </div>
           <div class="mySlides04">
             <div class="numbertext">3 / 3</div>
-            <img src="../images/body-product03.jpg" >
+            <img class="imgFormat" src="../images/body-product03.jpg" >
           </div>
         <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
@@ -149,7 +162,7 @@
 
           <p><strong>Abstract self-portrait made during the course CART214. Representing my perception of my mind.<br>Photo editing made with Photoshop.<br>Dimension: 19,05 x 19,05cm.</strong></p>
           </div>
-          <img src="../images/self.jpg">
+          <img class="imgFormat" src="../images/self.jpg">
           </div>
       <div id="form06" class="form-container">
           <button type="button" class="btn cancel" onclick="closeWindow('form06')">Close</button>
@@ -162,32 +175,32 @@
         <div class="slideshow-container">
             <div class="mySlides05">
               <div class="numbertext">1 / 4</div>
-              <video controls>
+              <video class="imgFormat" controls>
                 <source src="../images/bustle-beyond-video.mp4" type="video/mp4">
               </video>
             </div>
             <div class="mySlides05">
               <div class="numbertext">2 / 4</div>
-              <img src="../images/bustle-beyond01.PNG" alt="The Woods">
+              <img class="imgFormat" src="../images/bustle-beyond01.PNG" alt="The Woods">
             </div>
             <div class="mySlides05">
               <div class="numbertext">3 / 4</div>
-              <img src="../images/bustle-beyond02.PNG">
+              <img class="imgFormat" src="../images/bustle-beyond02.PNG">
             </div>
             <div class="mySlides05">
               <div class="numbertext">4 / 4</div>
-              <img src="../images/bustle-beyond03.PNG" alt="The Woods">
+              <img class="imgFormat" src="../images/bustle-beyond03.PNG" alt="The Woods">
             </div>
         </div>
         <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
       </div>
       <footer>
+          <img id="shuffle" onclick="openNav()"src="../images/CART444_shuffle.png">
       </footer>
-    </div>
     <script src="../js/menu.js"></script>
     <script src="../js/loadingPages.js" ></script>
-    <script src="../js/generatePages.js"></script>
+    <script src="../js/generatePages.js"></script>  `
     <script>
       function ani(buttonId) {
         var formId = buttonId.replace("button", 'form'); // Assuming buttonId follows a pattern like 'button01', 'button02', etc.
