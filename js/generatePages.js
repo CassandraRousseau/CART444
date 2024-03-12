@@ -8,7 +8,7 @@ var urls = [
     "../Pages/photography.html",
     "../Pages/sculpting.html",
     "../Pages/about.html",
-    "../Pages/resume.html"
+    "../Pages/CV.html"
     // Add more URLs as needed
 ];
 
