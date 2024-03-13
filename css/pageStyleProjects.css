@@ -158,22 +158,14 @@ body {
   /* Set a style for the submit/login button */
   .form-container .btn {
     display: block;
-    color: #EEECEB;
     padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    width: 10%;
-    margin-bottom:10px;
-    opacity: 0.8;
-    margin-right: auto;
+    width: 7%;
+    height:10%;
+    position: absolute;
+    top: 0;
+    right:5px;
   }
-  
-  /* Add a red background color to the cancel button */
-  .form-container .cancel {
-    display: block;
-    background-color: #462526;
-  }
-  
+
   /* Add some hover effects to buttons */
   .form-container .btn:hover, .open-button:hover {
     display: block;
@@ -190,19 +182,32 @@ body {
     -webkit-animation-name: cssAnimation02;
   }
   #form03{
-    -webkit-animation-name: cssAnimation03;
+    -webkit-animation-name: cssAnimation;
   }
 
   #form04{
-    -webkit-animation-name: cssAnimation04;
+    -webkit-animation-name: cssAnimation02;
   }
   #form05{
-    -webkit-animation-name: cssAnimation05;
+    -webkit-animation-name: cssAnimation;
   }
   #form06{
-    -webkit-animation-name: cssAnimation06;
+    -webkit-animation-name: cssAnimation02;
   }
+}
+#form07{
+  -webkit-animation-name: cssAnimation;
+}
 
+#form08{
+  -webkit-animation-name: cssAnimation02;
+}
+#form09{
+  -webkit-animation-name: cssAnimation;
+}
+#form10{
+  -webkit-animation-name: cssAnimation02;
+}
 .description{
   text-align: right;
   height: 8vh;
@@ -338,43 +343,6 @@ body {
 }
 
 @-webkit-keyframes cssAnimation02 {
-  from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(50%,10%);
-  }
-  to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0%,0%);
-  }
-
-}
-
-@-webkit-keyframes cssAnimation03 {
-  from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-50%,10%);
-  }
-  to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0%,0%);
-  }
-
-}
-
-@-webkit-keyframes cssAnimation04 {
-  from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(50%,10%);
-  }
-  to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0%,0%);
-  }
-
-}
-@-webkit-keyframes cssAnimation05 {
-  from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-50%,10%);
-  }
-  to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0%,0%);
-  }
-}
-@-webkit-keyframes cssAnimation06 {
   from {
     -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(50%,10%);
   }

@@ -10,7 +10,7 @@
         <h2>Design</h2></header>
 
     <div id="mySidenav" class="sidenav">
-        <img class="closebtn" onclick="closeNav() "src="images/email-icon.png">
+        <img class="closebtn" onclick="closeNav()" src="../images/CART444_Close.png">
         <a href="../Pages/animation.html">Animation</a>
         <a href="../Pages/dance.html">Dance</a>
         <a href="../Pages/design.html">Design</a>
@@ -30,7 +30,7 @@
         <button  class="buttons" id="button05" onclick="ani(this.id)">Self</button>
           <button  class="buttons" id="button06" onclick="ani(this.id)">The Bustle & Beyond</button>
         <div id="form01" class="form-container">
-            <button type="button" class="btn cancel" onclick="closeWindow('form01')">Close</button>
+            <img class="btn"  onclick="closeWindow('form01')" src="../images/CART444_Close.png">
             <h3>Do you Remember MYSPACE? (2021)</h3>
             <div class="description">
             <p><strong>Project based on the video Do You Remember MYSPACE?. Worked on web design, graphic design and coding.<br>Website made in collaboration with Abigail Lopez, used HTML,CSS and Javascript.<br>Video lasting 0:35min.</strong></p>
@@ -39,7 +39,7 @@
           <div class="slideshow-container">
             <div class="mySlides01">
               <div class="numbertext">1 / 4</div>
-              <video class="imgFormat" class="imgFormat" controls>
+              <video class="imgFormat" controls>
                 <source src="../images/myspace.mp4" type="video/mp4">
               </video>
             </div>
@@ -62,14 +62,13 @@
 
 
       <div id="form02" class="form-container">
-          <button type="button" class="btn cancel" onclick="closeWindow('form02')">Close</button>
-          <h2>FMRL (2020)</h2>
+          <img class="btn"  onclick="closeWindow('form02')" src="../images/CART444_Close.png">
+          <h3>FMRL (2020)</h3>
           <div class="description">
           <p><strong>The fictional game menu was made based on the game project Ephemeral.<br>User Interface made with Adobe XD and Illustrator.<br>Video lasting 0:47min.</strong></p>
           <a href="https://www.figma.com/proto/t1BYhrvZJqOLV0whUjU7N6/UX-Victorian"  target="_blank" ><strong>Click here to test the menu</strong></a><br/><br/>
           </div>
         <div class="slideshow-container">
-
         <div class="mySlides02">
               <div class="numbertext">1 / 5</div>
               <video class="imgFormat" class="imgFormat" controls>
@@ -97,8 +96,8 @@
             </div>
       </div>
         <div  id="form03" class="form-container">
-            <button type="button" class="btn cancel" onclick="closeWindow('form03')">Close</button>
-            <h2>Invisible (2023)</h2>
+            <img class="btn"  onclick="closeWindow('form03')" src="../images/CART444_Close.png">
+            <h3>Invisible (2023)</h3>
             <div class="description">
 
             <p><strong>Collaborative theatrical installation about homelessness, worked on the application prototype providing stories, facts and resources about homelessness.<br>Prototype made with Figma.<br>Video lasting 0:42min.</strong></p>
@@ -132,8 +131,8 @@
         </div>
         </div>
       <div id="form04" class="form-container">
-          <button type="button" class="btn cancel" onclick="closeWindow('form04')">Close</button>
-          <h2>My Body is not a Product! (2020)</h2>
+          <img class="btn"  onclick="closeWindow('form04')" src="../images/CART444_Close.png">
+          <h3>My Body is not a Product! (2020)</h3>
           <div class="description">
 
           <p><strong>Poster project claiming women’s objectification in society and promotes the independence of their bodies.<br>2D illustrations made with Photoshop<br>Dimension:13,53 x 19,69cm.</strong></p>
@@ -156,8 +155,8 @@
           </div>
       </div>
       <div  id="form05" class="form-container">
-          <button type="button" class="btn cancel" onclick="closeWindow('form05')">Close</button>
-          <h2>FMRL (2020)</h2>
+          <img class="btn"  onclick="closeWindow('form05')" src="../images/CART444_Close.png">
+          <h3>FMRL (2020)</h3>
           <div class="description">
 
           <p><strong>Abstract self-portrait made during the course CART214. Representing my perception of my mind.<br>Photo editing made with Photoshop.<br>Dimension: 19,05 x 19,05cm.</strong></p>
@@ -165,8 +164,8 @@
           <img class="imgFormat" src="../images/self.jpg">
           </div>
       <div id="form06" class="form-container">
-          <button type="button" class="btn cancel" onclick="closeWindow('form06')">Close</button>
-          <h2>The Bustle & Beyond (2023)</h2>
+          <img class="btn"  onclick="closeWindow('form06')" src="../images/CART444_Close.png">
+          <h3>The Bustle & Beyond (2023)</h3>
           <div class="description">
 
           <p><strong>Collaborative project about Victorian fashion.The purpose of this project was to create a website that provides learning content for both crafting Victorian pieces or its history.<br>Website prototype made in collaboration with Nesreen Galal and Tatiana Titov, worked on providing information in teh text and the design of the Tuberculosis page,  used Figma and Photoshop.<br>Video lasting 0:35min.</strong></p>
@@ -196,11 +195,11 @@
         <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
       </div>
       <footer>
-          <img id="shuffle" onclick="openNav()"src="../images/CART444_shuffle.png">
+          <img id="shuffle" src="../images/CART444_shuffle.png">
       </footer>
     <script src="../js/menu.js"></script>
     <script src="../js/loadingPages.js" ></script>
-    <script src="../js/generatePages.js"></script>  `
+    <script src="../js/generatePages.js"></script>
     <script>
       function ani(buttonId) {
         var formId = buttonId.replace("button", 'form'); // Assuming buttonId follows a pattern like 'button01', 'button02', etc.

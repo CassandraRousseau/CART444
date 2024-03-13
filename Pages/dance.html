@@ -10,7 +10,7 @@
     <h2>Dance</h2></header>
 
 <div id="mySidenav" class="sidenav">
-    <img class="closebtn" onclick="closeNav() "src="images/email-icon.png">
+    <img class="closebtn" onclick="closeNav()" src="../images/CART444_Close.png">
     <a href="../Pages/animation.html">Animation</a>
     <a href="../Pages/dance.html">Dance</a>
     <a href="../Pages/design.html">Design</a>
@@ -24,142 +24,103 @@
 </div>
 <div class="page-container"> <!-- New container div -->
 
-    <button  class="buttons" onclick="openForm01()">Dr.Bebe</button>
-    <button  class="buttons" onclick="openForm02()">Go Go</button>
-    <button   class="buttons" onclick="openForm03()">Let's Get Crazy (Lupita)</button>
-    <button   class="buttons" onclick="openForm04()">Ready to Love</button>
-<div class="popup" id="myForm01">
-    <form  class="form-container">
-        <button type="button" class="btn cancel" onclick="closeForm01()">Close</button>
+    <button  class="buttons" id="button01" onclick="ani(this.id)">Dr.Bebe</button>
+    <button  class="buttons" id="button02" onclick="ani(this.id)">Go Go</button>
+    <button   class="buttons" id="button03" onclick="ani(this.id)">Let's Get Crazy (Lupita)</button>
+    <button   class="buttons" id="button04" onclick="ani(this.id)">Ready to Love</button>
+
+    <div id="form01" class="form-container">
+        <img class="btn"  onclick="closeWindow('form01')" src="../images/CART444_Close.png">
+        <h3>Dr.Bebe (2021)</h3>
         <div class="description">
-        <h2>Dr.Bebe (2021)</h2>
         <p><strong>K-cover project made under the collective group Kollective,performed and edited the original cover.<br>Video edited with Premiere Pro, K-Pop dance style.<br>Video lasting 3:25min.</strong></p>
         <a href="https://youtu.be/RRAMOR99OBY?si=l3aktGEyHxIy-vwa"  target="_blank" ><strong>Click here to watch the performance</strong></a><br/><br/>
         <a href="https://youtu.be/kJLJL1KAWSA?si=xw_3YN7ZiDxEwuMa"  target="_blank" ><strong>Click here to watch the challenge</strong></a><br/><br/>
         </div>
-        <div class="img-container">
-        <div class="mySlides">
-            <img src="../images/Dr-bebe.jpg" alt="The Woods">
+            <img class="imgFormat" src="../images/Dr-bebe.jpg" alt="The Woods">
         </div>
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">❮</a>
-        <a class="next" onclick="plusSlides(1)">❯</a>
 
-        <div class="caption-container">
-            <p>Dr.Bebe (2021)</p>
-        </div>
-    </form>
-</div>
-
-<div class="popup" id="myForm02">
-    <form  class="form-container">
-        <button type="button" class="btn cancel" onclick="closeForm02()">Close</button>
+    <div id="form02" class="form-container">
+        <img class="btn"  onclick="closeWindow('form02')" src="../images/CART444_Close.png">
+        <h3>Go Go (2021)</h3>
         <div class="description">
-        <h2>Go Go (2021)</h2>
         <p><strong>K-cover made with the dance crew D-Krown, performed and edited the cover.<br>Video edited with Premiere Pro, K-Pop dance style.<br>Video lasting 3:59min.</strong></p>
         <a href="https://youtu.be/C-Wsh1eKcKY?si=Wq9DqAaIDG4CbA2C"  target="_blank" ><strong>Click here to watch the performance</strong></a>
         </div>
-        <div class="img-container">
-        <div class="mySlides02">
-            <img src="../images/Go-Go.jpg" alt="The Woods">
+            <img class="imgFormat" src="../images/Go-Go.jpg" alt="The Woods">
         </div>
-        </div>
-        <a class="prev" onclick="plusSlides02(-1)">❮</a>
-        <a class="next" onclick="plusSlides02(1)">❯</a>
-    </form>
-</div>
 
-<div class="popup" id="myForm03">
-    <form  class="form-container">
-        <button type="button" class="btn cancel" onclick="closeForm03()">Close</button>
+    <div id="form03" class="form-container">
+        <img class="btn"  onclick="closeWindow('form03')" src="../images/CART444_Close.png">
+        <h3>Let's Get Crazy (Lupita) (2023)</h3>
         <div class="description">
-        <h2>Let's Get Crazy (Lupita) (2023)</h2>
-        <p><strong>Project made with the dance company FierceMTL, performed the choreography.<br><>Salsa calena (i.e.,Columbian salsa) and jazz funk dance styles.<br>Performance lasting 2:00min.</strong></p>
+        <p><strong>Project made with the dance company FierceMTL, performed the choreography.<br>Salsa calena (i.e.,Columbian salsa) and jazz funk dance styles.<br>Performance lasting 2:00min.</strong></p>
         <a href="https://youtu.be/LPfcABxG-fQ?si=19rR4rOHi8Jqd788"  target="_blank" ><strong>Click here to watch the performance</strong></a>
         </div>
-        <div class="img-container">
-        <div class="mySlides03">
+        <div class="slideshow-container">
+        <div class="mySlides01">
             <div class="numbertext">1 / 5</div>
-            <img src="../images/lupita.jpeg" alt="The Woods">
+            <img class="imgFormat" src="../images/lupita.jpeg" alt="The Woods">
         </div>
-        </div>
-        <div class="img-container">
-        <div class="mySlides03">
+        <div class="mySlides01">
             <div class="numbertext">2 / 5</div>
-            <img src="../images/lupita02.jpeg" alt="The Woods">
+            <img class="imgFormat" src="../images/lupita02.jpeg" alt="The Woods">
         </div>
-        </div>
-        <div class="img-container">
-        <div class="mySlides03">
+        <div class="mySlides01">
             <div class="numbertext">3 / 5</div>
-            <img src="../images/lupita03.jpeg" alt="The Woods">
+            <img class="imgFormat" src="../images/lupita03.jpeg" alt="The Woods">
         </div>
-        </div>
-        <div class="img-container">
-        <div class="mySlides03">
+        <div class="mySlides01">
             <div class="numbertext">4 / 5</div>
-            <img src="../images/lupita04.jpeg" alt="The Woods">
+            <img class="imgFormat" src="../images/lupita04.jpeg" alt="The Woods">
         </div>
-        </div>
-        <div class="img-container">
-        <div class="mySlides03">
+        <div class="mySlides01">
             <div class="numbertext">5 / 5</div>
-            <img src="../images/lupita05.jpeg" alt="The Woods">
+            <img class="imgFormat" src="../images/lupita05.jpeg" alt="The Woods">
         </div>
         </div>
-        <a class="prev" onclick="plusSlides03(-1)">❮</a>
-        <a class="next" onclick="plusSlides03(1)">❯</a>
-    </form>
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 </div>
-<div class="popup" id="myForm04">
-    <form class="form-container">
-        <button type="button" class="btn cancel" onclick="closeForm04()">Close</button>
+    <div id="form04" class="form-container">
+        <img class="btn"  onclick="closeWindow('form04')" src="../images/CART444_Close.png">
+        <h3>Ready to Love (2021)</h3>
         <div class="description">
-        <h2>Ready to Love (2021)</h2>
         <p><strong>K-cover made under the dance collective Kollective, performed and edited the cover.<br>Video edited with Premiere Pro, K-Pop dance style.<br>Video lasting 4:01min.</strong></p>
         <a href="https://youtu.be/nzRawHz9ZxU?si=TyVjM59F7jQ0AZ0q"  target="_blank" ><strong>Click here to watch the performance</strong></a>
         </div>
-        <div class="img-container">
-        <div class="mySlides04">
+        <div class="slideshow-container">
+        <div class="mySlides02">
             <div class="numbertext">1 / 5</div>
-            <img src="../images/ready-to-love.jpg" alt="The Woods">
+            <img class="imgFormat" src="../images/ready-to-love.jpg" alt="The Woods">
         </div>
-        </div>
-        <div class="img-container">
-        <div class="mySlides04">
+        <div class="mySlides02">
             <div class="numbertext">2 / 5</div>
 
-                <img src="../images/ready-to-love02.jpg" alt="The Woods">
+                <img class="imgFormat" src="../images/ready-to-love02.jpg" alt="The Woods">
         </div>
-        </div>
-        <div class="img-container">
-        <div class="mySlides04">
+        <div class="mySlides02">
             <div class="numbertext">3 / 5</div>
-            <img src="../images/ready-to-love03.jpg" alt="The Woods">
+            <img class="imgFormat" src="../images/ready-to-love03.jpg" alt="The Woods">
         </div>
-        </div>
-        <div class="img-container">
-        <div class="mySlides04">
+        <div class="mySlides02">
             <div class="numbertext">4 / 5</div>
-                <img src="../images/ready-to-love04.jpg" alt="The Woods">
+                <img class="imgFormat" src="../images/ready-to-love04.jpg" alt="The Woods">
         </div>
-        </div>
-        <div class="img-container">
-        <div class="mySlides04">
+        <div class="mySlides02">
             <div class="numbertext">5 / 5</div>
-            <img src="../images/ready-to-love05.jpg" alt="The Woods">
+            <img class="imgFormat" src="../images/ready-to-love05.jpg" alt="The Woods">
         </div>
         </div>
-        <a class="prev" onclick="plusSlides04(-1)">❮</a>
-        <a class="next" onclick="plusSlides04(1)">❯</a>
-    </form>
+        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
 </div>
     <footer>
         <img id="shuffle" onclick="openNav()"src="../images/CART444_shuffle.png">
     </footer>
     <script src="../js/menu.js"></script>
     <script src="../js/loadingPages.js" ></script>
-    <script src="../js/generatePages.js"></script>  `
+    <script src="../js/generatePages.js"></script>
     <script>
         function ani(buttonId) {
             var formId = buttonId.replace("button", 'form'); // Assuming buttonId follows a pattern like 'button01', 'button02', etc.
