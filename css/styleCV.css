@@ -12,19 +12,20 @@ header{
 h1 {
 
     font-size: 104px;
-    margin-left: 1vw;
-    margin-bottom: 0;
+    margin-left: 48px;
     margin-top: 0;
+    margin-bottom:96px;
 }
 h2 {
     font-size: 64px;
     margin-left: 2vw;
-    margin-bottom: 0;
     margin-top: 0;
+    margin-bottom:96px;
 }
 h3 {
     font-size: 40px;
     margin-left: 2vw;
+
 }
 h4 {
     font-size: 24px;
@@ -170,7 +171,7 @@ body {
     height: 100px;
     position: absolute; /* Position relative to the nearest positioned ancestor */
     right: 25px; /* Adjust right position */
-
+margin-bottom:1vw;
 }
 .icon:hover {
     opacity: 0.6;
@@ -192,7 +193,9 @@ body {
     padding:1%;
     width: 95%;
     color:#2C3130;
-    margin: 1vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom:96px;
 }
 
 .container {
@@ -205,7 +208,9 @@ body {
     padding: 1%;
     color: #2C3130;
     width: 40%;
-    margin: 0 1vw; /* Adjust margin as needed */
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom:96px;
 }
 
 .bubble-right {
