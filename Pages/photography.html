@@ -10,7 +10,7 @@
       <h2>Photography</h2></header>
 
     <div id="mySidenav" class="sidenav">
-      <img class="closebtn" onclick="closeNav() "src="images/email-icon.png">
+      <img class="closebtn" onclick="closeNav()" src="../images/CART444_Close.png">
       <a href="../Pages/animation.html">Animation</a>
       <a href="../Pages/dance.html">Dance</a>
       <a href="../Pages/design.html">Design</a>
@@ -23,130 +23,99 @@
       <a href="../Pages/CV.html">CV</a>
     </div>
     <div class="page-container"> <!-- New container div -->
-        <button class="buttons" onclick="openForm01()">Corps en mouvements</button>
-          <button class="buttons" onclick="openForm02()">Nails</button>
-          <button class="buttons" onclick="openForm03()">Neon</button>
-        <button class="buttons" onclick="openForm04()">Parc délaissé</button>
-      <div class="popup" id="myForm01">
-        <form class="form-container">
-          <button type="button" class="btn cancel" onclick="closeForm01()">Close</button>
+        <button class="buttons" id="button01" onclick="ani(this.id)">Corps en mouvements</button>
+          <button class="buttons" id="button02" onclick="ani(this.id)">Nails</button>
+          <button class="buttons" id="button03" onclick="ani(this.id)">Neon</button>
+        <button class="buttons" id="button04" onclick="ani(this.id)">Parc délaissé</button>
+      <div id="form01" class="form-container">
+        <img class="btn"  onclick="closeWindow('form01')" src="../images/CART444_Close.png">
           <div class="description">
           <h2>Corps en mouvement (2019)</h2>
           <p>For this project on the theme of the human being, I decided to use dance as my subject. Dance is an important part of my life, and I wanted to include it in this project. What's more, I felt that this artistic domain is one of the best themes for showcasing the human being in all his grace and splendor. It brings together both bodily and emotional expression. In this series, I wanted to represent one of my passions and depict people who are part of my daily life.  I tried to realize this part of my daily life by creating these ../images. To emphasize the body's movements, I decided to shoot in black and white, so that the colors wouldn't detract from them. The contrast between black and white highlights the bodies and their movements. The ../images are mostly blurred, as I felt this effect accentuated the body's movements and fluidity to the maximum. What's more, this imprecision adds speed, power, emotion and dynamism to the series.  Several camera angles and shot types were used in this project to show the variety of movements. In this series, I've integrated group and individual photos to show the variety of performances and the power that each can achieve.The aim of this project is to highlight the power that our bodies can exude through gestures, emotions and expressions alone.I want to show how our bodies can create an experience, an atmosphere, a story all on their own.I wanted to express how dance can help us discover and experience emotions, an adventure, a universe for a moment.<br>Series made with a digital camera and Photoshop.<br>Dimensions: 3x(7200px x 2400px).</p>
           </div>
-            <div class="img-container">
-          <div class="mySlides">
+        <div class="slideshow-container">
+          <div class="mySlides01">
             <div class="numbertext">1 / 3</div>
-            <img src="../images/corps-en-mouvement.jpg" alt="The Woods">
+            <img class="imgFormat" src="../images/corps-en-mouvement.jpg" alt="The Woods">
           </div>
-          </div>
-          <div class="img-container">
-          <div class="mySlides">
+          <div class="mySlides01">
             <div class="numbertext">2 / 3</div>
-            <img src="../images/corps-en-mouvement02.jpg">
+            <img class="imgFormat" src="../images/corps-en-mouvement02.jpg">
           </div>
-          </div>
-          <div class="img-container">
-          <div class="mySlides">
+          <div class="mySlides01">
             <div class="numbertext">3 / 3</div>
-            <img src="../images/corps-en-mouvement03.jpg" alt="The Woods">
+            <img class="imgFormat" src="../images/corps-en-mouvement03.jpg" alt="The Woods">
           </div>
           </div>
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 
-          </form>
             </div>
-      <div class="popup" id="myForm02">
-        <form class="form-container">
-          <button type="button" class="btn cancel" onclick="closeForm02()">Close</button>
+      <div id="form02" class="form-container">
+        <img class="btn"  onclick="closeWindow('form02')" src="../images/CART444_Close.png">
           <div class="description">
           <h2>Nails (2019)</h2>
           <p>Picture taken through an exploration of views and angles possible in photography.<br>Picture made with a digital camera and Photoshop.<br>Dimension: 5184px x 3456px.</p>
           </div>
-            <div class="img-container">
-              <img src="../images/nails.JPG" alt="The Woods">
-          </div>
-            <div class="caption-container">
-              <p>Nails (2019)</p>
+              <img class="imgFormat" src="../images/nails.png" alt="The Woods">
             </div>
-          </form>
-            </div>
-      <div class="popup" id="myForm03">
-        <form class="form-container">
-          <button type="button" class="btn cancel" onclick="closeForm03()">Close</button>
+      <div id="form03" class="form-container">
+        <img class="btn"  onclick="closeWindow('form03')" src="../images/CART444_Close.png">
           <div class="description">
             <h2>Neon (2019)</h2>
           <p>Neon is a photography series that explores the representation of light in photography. I focused on neon lights due to their interesting gloomy effect.<br>Made with a digital camera and Photoshop.<br>Dimensions: 5x(5184px x 3456px)</p>
           </div>
-          <div class="img-container">
+        <div class="slideshow-container">
           <div class="mySlides02">
             <div class="numbertext">1 / 5</div>
-            <img src="../images/neon01.JPG" alt="The Woods">
+            <img class="imgFormat" src="../images/neon01.png" alt="The Woods">
           </div>
-          </div>
-          <div class="img-container">
           <div class="mySlides02">
             <div class="numbertext">2 / 5</div>
-            <img src="../images/neon02.JPG">
+            <img class="imgFormat" src="../images/neon02.png">
           </div>
-          </div>
-          <div class="img-container">
           <div class="mySlides02">
             <div class="numbertext">3 / 5</div>
-            <img src="../images/neon03.JPG" >
+            <img class="imgFormat" src="../images/neon03.png" >
           </div>
-          </div>
-          <div class="img-container">
           <div class="mySlides02">
             <div class="numbertext">4 / 5</div>
-            <img src="../images/neon04.JPG">
+            <img class="imgFormat" src="../images/neon04.png">
           </div>
-          </div>
-          <div class="img-container">
           <div class="mySlides02">
             <div class="numbertext">5 / 5</div>
-            <img src="../images/neon05.JPG" >
+            <img class="imgFormat" src="../images/neon05.png" >
           </div>
           </div>
-          <a class="prev" onclick="plusSlides02(-1)">❮</a>
-          <a class="next" onclick="plusSlides02(1)">❯</a>
-        </form>
+        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
           </div>
-      <div class="popup" id="myForm04">
-        <form class="form-container">
-          <button type="button" class="btn cancel" onclick="closeForm04()">Close</button>
+      <div id="form04" class="form-container">
+        <img class="btn"  onclick="closeWindow('form04')" src="../images/CART444_Close.png">
           <div class="description">
           <h2>Parc délaissé (2019)</h2>
         <p><strong>A series of photographs whose theme is the perception of the world. I wanted to transform a place known for being innocent into a more distressing one. A narrative is created through different angles and shots.<br>Digital photograph made with a digital camera and use of Photoshop.<br>Dimensions: 4 x (20.32 x 30.48cm).</strong></p>
           </div>
-            <div class="img-container">
+        <div class="slideshow-container">
           <div class="mySlides03">
           <div class="numbertext">1 / 4</div>
-          <img src="../images/parc-delaisse02.jpg" alt="The Woods">
+          <img class="imgFormat" src="../images/parc-delaisse02.jpg" alt="The Woods">
         </div>
-          </div>
-          <div class="img-container">
         <div class="mySlides03">
           <div class="numbertext">2 / 4</div>
-          <img src="../images/parc-delaisse03.jpg">
+          <img class="imgFormat" src="../images/parc-delaisse03.jpg">
         </div>
-          </div>
-          <div class="img-container">
         <div class="mySlides03">
           <div class="numbertext">3 / 4</div>
-          <img src="../images/parc-delaisse04.jpg" >
+          <img class="imgFormat" src="../images/parc-delaisse04.jpg" >
         </div>
-          </div>
-          <div class="img-container">
         <div class="mySlides03">
           <div class="numbertext">4 / 4</div>
-          <img src="../images/parc-delaisse.jpg">
+          <img class="imgFormat" src="../images/parc-delaisse.jpg">
         </div>
           </div>
-        <a class="prev" onclick="plusSlides03(-1)">❮</a>
-        <a class="next" onclick="plusSlides03(1)">❯</a>
-      </form>
+        <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
         </div>
       <footer>
         <img id="shuffle" onclick="openNav()"src="../images/CART444_shuffle.png">
@@ -180,13 +149,11 @@
             button.style.pointerEvents = "auto"; // Re-enable pointer events for all buttons
           });}
 
-        let slideIndex = [1,1,1,1,1];
-        let slideId = ["mySlides01", "mySlides02", "mySlides03", "mySlides04", "mySlides05"]
+        let slideIndex = [1,1,1];
+        let slideId = ["mySlides01", "mySlides02", "mySlides03"]
         showSlides(1, 0);
         showSlides(1, 1);
         showSlides(1, 2); // Add additional calls for each slideshow
-        showSlides(1, 3);
-        showSlides(1, 4);
         function plusSlides(n, no) {
           showSlides(slideIndex[no] += n, no);
           console.log(plusSlides);

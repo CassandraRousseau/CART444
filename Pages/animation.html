@@ -191,13 +191,11 @@
         button.style.pointerEvents = "auto"; // Re-enable pointer events for all buttons
       });}
 
-    let slideIndex = [1,1,1,1,1];
-    let slideId = ["mySlides01", "mySlides02", "mySlides03", "mySlides04", "mySlides05"]
+    let slideIndex = [1,1,1];
+    let slideId = ["mySlides01", "mySlides02", "mySlides03"]
     showSlides(1, 0);
     showSlides(1, 1);
     showSlides(1, 2); // Add additional calls for each slideshow
-    showSlides(1, 3);
-    showSlides(1, 4);
     function plusSlides(n, no) {
       showSlides(slideIndex[no] += n, no);
       console.log(plusSlides);
