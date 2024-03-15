@@ -5,7 +5,7 @@ body {
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
   background-color: #423531;
   color:#EEECEB;
-  text-align: left; /* center the text */
+  text-align: left; 
 }
 #shuffle{
   width: 6.25rem;
@@ -17,17 +17,4 @@ body {
   margin-bottom:1.2rem;
   margin-top: 20%;
 }
-@keyframes fadeInUp {
-  0% {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0%);
-    opacity: 1;
-  }
-}
 
-.fadeInUp-animation {
-  animation: 1.5s fadeInUp;
-}
