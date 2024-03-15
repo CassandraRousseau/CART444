@@ -1,5 +1,6 @@
 var urls = [
     "Pages/animation.html",
+    "Pages/audiovisual.html",
     "Pages/dance.html",
     "Pages/design.html",
     "Pages/drawing.html",

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Animation</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/pageStyleProjects.css" />
+</head>
+<body>
+<header>
+  <img id="menu" onclick="openNav()"src="../images/CART444_menu.png">
+  <h1>Cassandra Rousseau</h1>
+  <h2>Audiovisual</h2></header>
+
+<div id="mySidenav" class="sidenav">
+  <img class="closebtn" onclick="closeNav()" src="../images/CART444_Close.png">
+    <a href="../Pages/about.html" >About</a>
+    <a href="../Pages/CV.html">CV</a>
+  <a href="../Pages/animation.html">Animation</a>
+    <a href="../Pages/audiovisual.html">Audiovisual</a>
+  <a href="../Pages/dance.html">Dance</a>
+  <a href="../Pages/design.html">Design</a>
+  <a href="../Pages/drawing.html"  >Drawing</a>
+  <a href="../Pages/game-development.html" >Game Development</a>
+  <a href="../Pages/painting.html" >Painting</a>
+  <a href="../Pages/photography.html"  >Photography</a>
+  <a href="../Pages/sculpting.html"  >Sculpting</a>
+</div>
+<div class="page-container"> <!-- New container div -->
+  <button class="buttons" id="button01" onclick="ani(this.id)">YT</button>
+
+  <div id="form05" class="form-container">
+    <img class="formbtn"  onclick="closeWindow('form05')" src="../images/CART444_Close.png">
+    <h3>YT (2023)</h3>
+            <div class="description">
+            <p><strong>Abstract animation created for a performance representing the inner fight of someone with mental health disorders.<br>2D animation made with Adobe Animate, Photoshop and Premiere Pro.<br>Animation lasting 0:59min.</strong></p>
+            <a href="https://youtu.be/sJotwRwqn3g"  target="_blank" ><strong>Click here to watch the animation</strong></a>
+            </div>
+            <video class="imgFormat" preload="auto" type="video/mp4" controls>
+              <source src="../images/YT.mp4">
+            </video>
+            </div>
+  </div>
+  <footer>
+    <img id="shuffle" src="../images/CART444_shuffle.png">
+  </footer>
+  <script src="../js/menu.js"></script>
+  <script src="../js/loadingPages.js" ></script>
+  <script src="../js/generatePages.js"></script>
+
+  <script>
+    function ani(buttonId) {
+      var formId = buttonId.replace("button", 'form'); // Assuming buttonId follows a pattern like 'button01', 'button02', etc.
+      var form = document.getElementById(formId);
+
+      form.style.display = "block";
+      form.className = 'form-container';
+      var buttons = document.querySelectorAll('.buttons');
+
+      buttons.forEach(function(button) {
+        button.style.opacity = 0;
+        button.style.transition = "opacity 0.5s";
+        button.style.pointerEvents = "none";
+      });
+    }
+    function closeWindow(formId) {
+      var form = document.getElementById(formId);
+      form.style.display = "none";
+
+      var buttons = document.querySelectorAll('.buttons');
+
+      buttons.forEach(function(button) {
+        button.style.opacity = 1; // Reset opacity to 1 for all buttons
+        button.style.pointerEvents = "auto"; // Re-enable pointer events for all buttons
+      });}
+  </script>
+</body>
+    </html>
