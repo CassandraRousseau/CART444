@@ -1,28 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
-  body {
-    font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
-    background-color: #423531;
-    color:#EEECEB;
-  }
-
-.animated-page {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  /* Add your styles for the new page content */
+body {
+  font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
+  background-color: #423531;
+  color:#EEECEB;
+  text-align: left; /* center the text */
 }
-
 #shuffle{
-  width: 150px;
-  height: 150px;
+  width: 6.25rem;
+  height: 6.25rem;
+  right: 1.563rem; /* Adjust right position */
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom:1.2rem;
   margin-top: 20%;
 }
-
 @keyframes fadeInUp {
   0% {
     transform: translateY(100%);
