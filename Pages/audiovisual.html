@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Animation</title>
+  <title>Audiovisual</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../css/pageStyleProjects.css" />
@@ -29,17 +29,33 @@
 <div class="page-container"> <!-- New container div -->
   <button class="buttons" id="button01" onclick="ani(this.id)">YT</button>
 
-  <div id="form05" class="form-container">
-    <img class="formbtn"  onclick="closeWindow('form05')" src="../images/CART444_Close.png">
+  <div id="form01" class="form-container">
+    <img class="formbtn"  onclick="closeWindow('form01')" src="../images/CART444_Close.png">
     <h3>YT (2023)</h3>
             <div class="description">
-            <p><strong>Abstract animation created for a performance representing the inner fight of someone with mental health disorders.<br>2D animation made with Adobe Animate, Photoshop and Premiere Pro.<br>Animation lasting 0:59min.</strong></p>
-            <a href="https://youtu.be/sJotwRwqn3g"  target="_blank" ><strong>Click here to watch the animation</strong></a>
+            <p><strong>Video series exploring the visual patterns of videos uploaded on YouTube.<br>Video editing made with Premiere Pro, data collection made with MongoDB.<br>Video lasting 5:30min each.</strong></p>
+            <a href="https://youtu.be/sJotwRwqn3g"  target="_blank" ><strong>Click here to watch the videos</strong></a>
             </div>
-            <video class="imgFormat" preload="auto" type="video/mp4" controls>
-              <source src="../images/YT.mp4">
-            </video>
-            </div>
+    <div class="slideshow-container">
+      <div class="mySlides01">
+        <div class="numbertext">1 / 4</div>
+        <img class="imgFormat" src="../images/YT01.PNG">
+      </div>
+      <div class="mySlides01">
+        <div class="numbertext">2 / 4</div>
+        <img class="imgFormat" src="../images/YT02.PNG">
+      </div>
+      <div class="mySlides01">
+        <div class="numbertext">3 / 4</div>
+        <img class="imgFormat" src="../images/YT03.PNG">
+      </div>
+      <div class="mySlides01">
+        <div class="numbertext">4 / 4</div>
+        <img class="imgFormat" src="../images/YT04.PNG">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+    </div>
   </div>
   <footer>
     <img id="shuffle" src="../images/CART444_shuffle.png">
@@ -73,6 +89,28 @@
         button.style.opacity = 1; // Reset opacity to 1 for all buttons
         button.style.pointerEvents = "auto"; // Re-enable pointer events for all buttons
       });}
+    let slideIndex = [1];
+    let slideId = ["mySlides01"]
+    showSlides(1, 0);
+    function plusSlides(n, no) {
+      showSlides(slideIndex[no] += n, no);
+      console.log(plusSlides);
+    }
+
+    function showSlides(n, no) {
+      let i;
+      let x = document.getElementsByClassName(slideId[no]);
+      if (n > x.length) {
+        slideIndex[no] = 1;
+      }
+      if (n < 1) {
+        slideIndex[no] = x.length;
+      }
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex[no] - 1].style.display = "block";
+    }
   </script>
 </body>
     </html>
