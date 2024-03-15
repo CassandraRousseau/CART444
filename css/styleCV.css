@@ -11,50 +11,50 @@ header{
 /* Increase the font size of the <h1> element */
 h1 {
 
-    font-size: 104px;
-    margin-left: 48px;
+    font-size: 6.5rem;
+    margin-left: 3rem;
     margin-top: 0;
-    margin-bottom:96px;
+    margin-bottom:6rem;
 }
 h2 {
-    font-size: 64px;
-    margin-left: 2vw;
+    font-size: 4rem;
+    margin-left: 2.4rem;
     margin-top: 0;
-    margin-bottom:96px;
+    margin-bottom:6rem;
 }
 h3 {
-    font-size: 40px;
-    margin-left: 2vw;
+    font-size: 2.5rem;
+    margin-left: 2.4rem;
 
 }
 h4 {
-    font-size: 24px;
-    margin-left: 2vw;
+    font-size: 1.5rem;
+    margin-left: 2.4rem;
 }
 .headlines{
-    font-size: 24px;
-    margin-left: 2vw;
+    font-size: 1.5rem;
+    margin-left: 2.4rem;
 }
 p {
-    font-size: 16px;
-    margin-left: 2vw;
+    font-size: 1rem;
+    margin-left: 2.4rem;
 }
 li{
-    font-size: 16px;
-    margin-left: 2vw;
+    font-size: 1rem;
+    margin-left: 2.4rem;
 }
 #menu{
-    width:100px;
-    height:100px;
-    top: 8px;
-    right: 16px;
+    width:6.25rem;
+    height:6.25rem;
+    top: 0.5rem;
+    right: 1rem;
     left: width;
     margin-left: auto; /* Pushes the image to the right */
-    margin-right: 1vw; /* Pushes the image to the right */
-    margin-top: 1vw; /* Pushes the image to the right */
+    margin-right: 1.2rem; /* Pushes the image to the right */
+    margin-top: 1.2rem; /* Pushes the image to the right */
 }
 button{
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 body {
     font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
@@ -72,14 +72,14 @@ body {
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 3.75rem;
 
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -92,31 +92,31 @@ body {
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+    right: 1.563rem;
+    font-size: 2.25rem;
+    margin-left: 3.125rem;
 }
 
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+@media screen and (max-height: 28.125rem) {
+    .sidenav {padding-top: 0.938rem;}
+    .sidenav a {font-size: 1.125rem;}
 }
 
 
 .parallax {
-    height: 500px; /* fallback for older browsers */
-    width: 100vh;
+    height: 31.25rem; /* fallback for older browsers */
+    width: 67.5rem;
     font-size: 200%;
     overflow-x: hidden;
     overflow-y: auto;
-    -webkit-perspective: 300px;
-    perspective: 300px;
+    -webkit-perspective: 18.75rem;
+    perspective: 18.75rem;
 }
 
 .parallax__group {
     position: relative;
-    height: 500px; /* fallback for older browsers */
-    width: 100vh;
+    height: 31.25rem; /* fallback for older browsers */
+    width: 67.5rem;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
@@ -125,53 +125,23 @@ body {
 
 
 
-.description{
-    text-align: right;
-    height: 8vh;
-    width: 20vw;
-    padding-left: 1vw;
-    margin-left: 35vw;
-}
-
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
     cursor: pointer;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-/* Six columns side by side */
-.column {
-    float: left;
-    width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-    opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-    opacity: 1;
-}
-
 
 .footer {
-    padding: 25px; /* some padding */
+    padding: 1.563rem; /* some padding */
     position: relative; /* Ensure positioning context for absolute positioning */
 }
 
 #shuffle{
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
     position: absolute; /* Position relative to the nearest positioned ancestor */
-    right: 25px; /* Adjust right position */
-margin-bottom:1vw;
+    right: 1.563rem; /* Adjust right position */
+margin-bottom:1.2rem;
 }
 .icon:hover {
     opacity: 0.6;
@@ -189,13 +159,13 @@ margin-bottom:1vw;
 
 .bubble-main{
     background-color: #FFE1E1;
-    border-radius: 8vw;
+    border-radius: 9.6rem;
     padding:1%;
     width: 95%;
     color:#2C3130;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    margin-bottom:96px;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom:6rem;
 }
 
 .container {
@@ -204,13 +174,13 @@ margin-bottom:1vw;
 
 .bubble-left, .bubble-right {
     background-color: #FFE1E1;
-    border-radius: 8vw;
+    border-radius: 9.6rem;
     padding: 1%;
     color: #2C3130;
     width: 40%;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    margin-bottom:96px;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom:6rem;
 }
 
 .bubble-right {

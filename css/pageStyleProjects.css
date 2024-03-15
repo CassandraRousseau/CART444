@@ -29,7 +29,6 @@ h3 {
 .imgFormat {
   margin-left: 2vw;
   margin-right:96px;
-  margin-top:96px;
   margin-bottom:96px;
   width:500px;
   height:371px;
@@ -209,11 +208,14 @@ body {
   -webkit-animation-name: cssAnimation02;
 }
 .description{
-  text-align: right;
   height: 8vh;
-  width: 20vw;
+  text-align: right;
   padding-left: 1vw;
-  margin-left: 35vw;
+  margin-left: 35vw; /* You can adjust this margin to control the gap */
+  margin-top: 0; /* Remove any top margin */
+  margin-bottom: 0; /* Remove any bottom margin */
+  width: 20vw; /* Let the width adjust according to content */
+  display: inline-block; /* Allow the element to be inline with the image */
 }
 
 
