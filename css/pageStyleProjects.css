@@ -185,8 +185,7 @@ body {
 }
 .buttons:hover {
   background-color: #BCC1B7;
-  opacity: 0.8;
-  transition: opacity 0.5s;
+  transition: background-color 0.5s;
 }
 
   /* Add styles to the form container */
