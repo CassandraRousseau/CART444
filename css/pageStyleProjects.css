@@ -43,6 +43,10 @@ li{
   font-size: 1rem;
   margin-left: 2.4rem;
 }
+
+a {
+  color: #5E6557;
+}
 #menu{
   width:6.25rem;
   height:6.25rem;
@@ -220,38 +224,38 @@ body {
     box-sizing: border-box;
   }
   #form01{
-    -webkit-animation-name: cssAnimation;
+    -webkit-animation-name: cssAnimation01;
   }
 
   #form02{
     -webkit-animation-name: cssAnimation02;
   }
   #form03{
-    -webkit-animation-name: cssAnimation;
+    -webkit-animation-name: cssAnimation03;
   }
 
   #form04{
-    -webkit-animation-name: cssAnimation02;
+    -webkit-animation-name: cssAnimation04;
   }
   #form05{
-    -webkit-animation-name: cssAnimation;
+    -webkit-animation-name: cssAnimation05;
   }
   #form06{
-    -webkit-animation-name: cssAnimation02;
+    -webkit-animation-name: cssAnimation06;
   }
-}
+
 #form07{
-  -webkit-animation-name: cssAnimation;
+  -webkit-animation-name: cssAnimation07;
 }
 
 #form08{
-  -webkit-animation-name: cssAnimation02;
+  -webkit-animation-name: cssAnimation08;
 }
 #form09{
-  -webkit-animation-name: cssAnimation;
+  -webkit-animation-name: cssAnimation09;
 }
 #form10{
-  -webkit-animation-name: cssAnimation02;
+  -webkit-animation-name: cssAnimation10;
 }
 .description{
   height: 5.4rem;
@@ -340,9 +344,9 @@ body {
   to {opacity: 1}
 }
 
-@-webkit-keyframes cssAnimation {
+@-webkit-keyframes cssAnimation01 {
   from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-50rem,10rem);
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-75rem,-25rem);
   }
   to {
     -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
@@ -352,7 +356,80 @@ body {
 
 @-webkit-keyframes cssAnimation02 {
   from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(50rem,10rem);
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-10rem,-25rem);
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
+  }
+
+}
+
+@-webkit-keyframes cssAnimation03 {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(20rem,-25rem);
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
+  }
+
+}
+@-webkit-keyframes cssAnimation04 {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(50rem,-25rem);
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
+  }
+
+}
+@-webkit-keyframes cssAnimation05 {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-75rem,5rem);
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
+  }
+
+}
+@-webkit-keyframes cssAnimation06 {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-10rem,5rem);
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
+  }
+
+}
+@-webkit-keyframes cssAnimation07 {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(20rem,5rem);
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
+  }
+
+}
+@-webkit-keyframes cssAnimation08 {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(50rem,5rem);
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
+  }
+
+}
+@-webkit-keyframes cssAnimation09 {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-75rem,20rem);
+  }
+  to {
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
+  }
+
+}
+@-webkit-keyframes cssAnimation10 {
+  from {
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-10rem,20rem);
   }
   to {
     -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
