@@ -149,10 +149,19 @@ body {
 }
 .imgFormat {
   margin-left: 2.4rem;
+  margin-top:-4rem;
   margin-right:6rem;
   margin-bottom:6rem;
   width:31.25rem;
   height:23.188rem;
+}
+.imgFormatVert {
+  margin-left: 2.4rem;
+  margin-right:6rem;
+  margin-top:-4rem;
+  margin-bottom:6rem;
+  width: 23.188rem;
+  height:31.25rem;
 }
 
 .buttons {
