@@ -184,10 +184,11 @@ body {
   transform-origin: center;
 }
 .buttons:hover {
-  opacity: 0.6;
+  background-color: #BCC1B7;
+  opacity: 0.8;
   transition: opacity 0.5s;
 }
-  
+
   /* Add styles to the form container */
   .form-container {
     display: none;

@@ -182,8 +182,18 @@ label {
 }
 
 
-.bubble-main{
+.bubble-pink{
     background-color: #FFE1E1;
+    border-radius: 9.6rem;
+    padding:1.5rem;
+    width: 112rem;
+    color:#2C3130;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom:6rem;
+}
+.bubble-green{
+    background-color: #BCC1B7;
     border-radius: 9.6rem;
     padding:1.5rem;
     width: 112rem;
