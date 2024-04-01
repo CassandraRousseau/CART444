@@ -200,6 +200,7 @@ body {
     left:24rem;
     width:72.625rem;
     height:43.75rem;
+    border-radius: 1.25rem;
     background-color: #FFE1E1;
     -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: 1;
