@@ -23,24 +23,24 @@ h2 {
     margin-bottom:6rem;
 }
 h3 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin-left: 2.4rem;
 
 }
 h4 {
-    font-size: 1.5rem;
+    font-size: 3rem;
     margin-left: 2.4rem;
 }
 .headlines{
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     margin-left: 2.4rem;
 }
 p {
-    font-size: 1rem;
+    font-size: 1.7rem;
     margin-left: 2.4rem;
 }
 li{
-    font-size: 1rem;
+    font-size: 1.7rem;
     margin-left: 2.4rem;
 }
 #menu{
@@ -52,9 +52,6 @@ li{
     margin-left: auto; /* Pushes the image to the right */
     margin-right: 1.2rem; /* Pushes the image to the right */
     margin-top: 1.2rem; /* Pushes the image to the right */
-}
-button{
-    font-size: 0.875rem;
 }
 body {
     font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
@@ -80,7 +77,8 @@ body {
     font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.7rem;
+    font-weight: bold;
     color: #462526;
     display: block;
     transition: 0.3s;
@@ -142,9 +140,10 @@ body {
 #shuffle{
     width: 6.25rem;
     height: 6.25rem;
-    position: absolute; /* Position relative to the nearest positioned ancestor */
-    right: 1.563rem; /* Adjust right position */
-margin-bottom:1.2rem;
+    margin-bottom:1.2rem;
+    margin-right:1.2rem;
+    margin-left: auto;
+    display: flex;
 }
 
 @-webkit-keyframes fadeIn {
@@ -161,7 +160,7 @@ margin-bottom:1.2rem;
     background-color: #FFE1E1;
     border-radius: 9.6rem;
     padding:1.5rem;
-    width: 112rem;
+    max-width: 112rem;
     color:#2C3130;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
@@ -174,10 +173,11 @@ margin-bottom:1.2rem;
 
 .bubble-left, .bubble-right {
     background-color: #BCC1B7;
-    border-radius: 9.6rem;
+    border-radius: 1rem 1rem 11rem 11rem;
     padding: 1.5rem;
     color: #2C3130;
-    width: 47rem;
+   width: 47rem;
+    max-width: 47rem;
     margin-left: 1.2rem;
     margin-right: 1.3rem;
     margin-bottom:6rem;
@@ -185,4 +185,24 @@ margin-bottom:1.2rem;
 
 .bubble-right {
     margin-left: auto; /* Pushes the bubble to the right */
+}
+.dark-pink-header{
+    background-color: #8C4A4D;
+    color: #EEECEB;
+    border-radius: 9.6rem;
+    padding:1.5rem;
+    max-width: 112rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom:6rem;
+}
+.dark-green-header{
+    background-color: #5E6557;
+    color: #EEECEB;
+    border-radius: 1rem 1rem 1rem 1rem;
+    padding:1.5rem;
+    max-width: 112rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom:6rem;
 }

@@ -23,12 +23,12 @@ h2 {
   margin-bottom:6rem;
 }
 h3 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   margin-left: 2.4rem;
 
 }
 h4 {
-  font-size: 1.5rem;
+  font-size: 3rem;
   margin-left: 2.4rem;
 }
 .headlines{
@@ -36,7 +36,7 @@ h4 {
   margin-left: 2.4rem;
 }
 p {
-  font-size: 1rem;
+  font-size: 1.7rem;
   margin-left: 2.4rem;
 }
 li{
@@ -56,9 +56,6 @@ a {
   margin-left: auto; /* Pushes the image to the right */
   margin-right: 1.2rem; /* Pushes the image to the right */
   margin-top: 1.2rem; /* Pushes the image to the right */
-}
-button{
-  font-size: 0.875rem;
 }
 body {
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
@@ -84,7 +81,8 @@ body {
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.7rem;
+  font-weight: bold;
   color: #462526;
   display: block;
   transition: 0.3s;
@@ -140,18 +138,21 @@ body {
   position: relative; /* Ensure positioning context for absolute positioning */
 }
 
+
 #shuffle{
   width: 6.25rem;
   height: 6.25rem;
-  position: absolute; /* Position relative to the nearest positioned ancestor */
-  right: 1.563rem; /* Adjust right position */
   margin-bottom:1.2rem;
+  margin-right:1.2rem;
+  margin-left: auto;
+  display: flex;
 }
 .imgFormat {
-  margin-left: 2.4rem;
-  margin-top:-4rem;
-  margin-right:6rem;
-  margin-bottom:6rem;
+  position: relative; /* Ensure positioning context for absolute positioning */
+  margin-left: -53%;
+  margin-top:-1%;
+  margin-right:6%;
+  margin-bottom:1%;
   width:31.25rem;
   height:23.188rem;
 }
@@ -167,7 +168,8 @@ body {
 .buttons {
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
   background-color: #E3CACB;
-  font-size: 0.875rem;
+  font-size: 1.7rem;
+  font-weight:bold;
   color:#2C3130;
   border: none;
   padding: 2.5rem; /* Adjusted padding: 150px top/bottom, 50px left/right */
@@ -194,10 +196,10 @@ body {
     position: fixed;
     z-index: 0; /* Sit on top */
     color: #2C3130;
-    top: 8rem;
+    top: 20vh;
     bottom: 0;
-    right: 45rem;
-    left:24rem;
+    right: 30em;
+    left:18vw;
     width:72.625rem;
     height:43.75rem;
     border-radius: 1.25rem;
@@ -356,7 +358,7 @@ body {
 
 @-webkit-keyframes cssAnimation01 {
   from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-75rem,-25rem);
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-75vw,-5vh);
   }
   to {
     -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
