@@ -60,6 +60,7 @@ body {
     background-image: linear-gradient(#9A7F77,#6F5953,#423531,#322825,#211B19,#110D0C,#000000);
     color:#EEECEB;
     text-align: left; /* center the text */
+    min-height:60vh;
 }
 .sidenav {
     height: 100%;
@@ -72,12 +73,11 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 3.75rem;
-
 }
 
 .sidenav a {
     font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    padding: 1.5rem 0.5rem 1.4rem 4.5rem;
     text-decoration: none;
     font-size: 1.7rem;
     font-weight: bold;

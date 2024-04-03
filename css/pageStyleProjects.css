@@ -25,7 +25,9 @@ h2 {
 h3 {
   font-size: 3.5rem;
   margin-left: 2.4rem;
-
+margin-bottom:1em;
+  margin-top:1em;
+  padding-top: 1em;
 }
 h4 {
   font-size: 3rem;
@@ -63,6 +65,7 @@ body {
   background-image: linear-gradient(to top right, #000000,#110D0C,#211B19,#322825,#423531,#6F5953,#9A7F77);
   color:#EEECEB;
   text-align: left; /* center the text */
+  min-height:60vh;
 }
 .sidenav {
   height: 100%;
@@ -80,7 +83,7 @@ body {
 
 .sidenav a {
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  padding: 1.5rem 0.5rem 1.4rem 4.5rem;
   text-decoration: none;
   font-size: 1.7rem;
   font-weight: bold;
@@ -149,9 +152,9 @@ body {
   display: flex;
 }
 .imgFormat {
-  position: relative; /* Ensure positioning context for absolute positioning */
-  margin-left: -53%;
-  margin-top:-1%;
+  /*position absolute;*/
+  margin-left: 2.4rem;
+  margin-top:-15em;
   margin-right:6%;
   margin-bottom:1%;
   width:31.25rem;
@@ -191,17 +194,18 @@ body {
 }
 
 button:hover {
-  background-color: #BCC1B7;
-  transition: background-color 0.5s;
+  background-color: #5E6557;
+  color: #EEECEB;
+  transition: background-color 0.5s, color 0.5s;
 }
 
   /* Add styles to the form container */
   .form-container {
     display: none;
-    position: fixed;
+    position: relative;
     z-index: 0; /* Sit on top */
     color: #2C3130;
-    top: 20vh;
+    top: -90vh;
     bottom: 0;
     right: 30em;
     left:18vw;
@@ -213,6 +217,7 @@ button:hover {
     -webkit-animation-iteration-count: 1;
     -webkit-animation-timing-function: ease;
     -webkit-animation-fill-mode: forwards;
+
   }
 .formbtn {
   position: absolute;
@@ -275,12 +280,12 @@ button:hover {
   -webkit-animation-name: cssAnimation10;
 }
 .description{
-  height: 5.4rem;
+  height: 1em;
   text-align: right;
   padding-left: 1.2rem;
   margin-left: 42rem; /* You can adjust this margin to control the gap */
-  margin-top: 0; /* Remove any top margin */
-  margin-bottom: 0; /* Remove any bottom margin */
+  margin-top: -5em; /* Remove any top margin */
+  margin-bottom: 20em; /* Remove any bottom margin */
   width: 24rem; /* Let the width adjust according to content */
   display: inline-block; /* Allow the element to be inline with the image */
 }

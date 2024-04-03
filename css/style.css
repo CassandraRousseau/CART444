@@ -7,10 +7,11 @@ body {
   background-image: linear-gradient(to top right, #000000,#110D0C,#211B19,#322825,#423531,#6F5953,#9A7F77);
   color:#EEECEB;
   text-align: left;
+  min-height:60vh;
 }
 #shuffle{
-  width: 6.25rem;
-  height: 6.25rem;
+  width: 12rem;
+  height: 12rem;
   right: 1.563rem; /* Adjust right position */
   display: block;
   margin-left: auto;
