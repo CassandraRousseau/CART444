@@ -56,6 +56,7 @@ li{
 body {
     font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
     background-color: #423531;
+    background-image: linear-gradient(#9A7F77,#6F5953,#423531,#322825,#211B19,#110D0C,#000000);
     color:#EEECEB;
     text-align: left; /* center the text */
 }

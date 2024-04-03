@@ -60,6 +60,7 @@ a {
 body {
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
   background-color: #423531;
+  background-image: linear-gradient(to top right, #000000,#110D0C,#211B19,#322825,#423531,#6F5953,#9A7F77);
   color:#EEECEB;
   text-align: left; /* center the text */
 }
@@ -166,6 +167,10 @@ body {
 }
 
 .buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.buttons > button {
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
   background-color: #E3CACB;
   font-size: 1.7rem;
@@ -178,14 +183,14 @@ body {
   opacity: 1;
   align-items: center; /* Center the buttons vertically */
   margin: 3rem;
-  display: inline;
   justify-content: space-between;
   width: 22.375rem;
   height:13.875rem;
   border-radius: 1.25rem;
   transform-origin: center;
 }
-.buttons:hover {
+
+button:hover {
   background-color: #BCC1B7;
   transition: background-color 0.5s;
 }

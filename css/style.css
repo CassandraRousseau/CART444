@@ -4,6 +4,7 @@
 body {
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
   background-color: #423531;
+  background-image: linear-gradient(to top right, #000000,#110D0C,#211B19,#322825,#423531,#6F5953,#9A7F77);
   color:#EEECEB;
   text-align: left;
 }
