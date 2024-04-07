@@ -215,3 +215,14 @@ label {
     margin-right: 1.2rem;
     margin-bottom:6rem;
 }
+@media screen and (min-width: 601px) {
+    h1{
+        font-size: 6.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 5rem;
+    }
+}
