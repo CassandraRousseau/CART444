@@ -202,12 +202,8 @@ button:hover {
     position: relative;
     z-index: 0; /* Sit on top */
     color: #2C3130;
-    top: -90vh;
     bottom: 0;
     right: 30em;
-    left:18vw;
-    width:72.625rem;
-    height:43.75rem;
     border-radius: 1.25rem;
     background-color: #FFE1E1;
     -webkit-animation-duration: 3s;
@@ -464,5 +460,23 @@ h1{
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 5rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .form-container{
+    width:72.625rem;
+    height:43.75rem;
+    left:18vw;
+    top: -90vh;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  .form-container{
+    width:40rem;
+    height:30rem;
+    left:8vw;
+    top: -190vh;
   }
 }
