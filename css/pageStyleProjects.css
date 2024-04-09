@@ -22,7 +22,6 @@ h2 {
   margin-bottom:6rem;
 }
 h3 {
-  font-size: 3.5rem;
   margin-left: 2.4rem;
 margin-bottom:1em;
   margin-top:1em;
@@ -154,16 +153,12 @@ body {
   margin-top:-15em;
   margin-right:6%;
   margin-bottom:1%;
-  width:31.25rem;
-  height:23.188rem;
 }
 .imgFormatVert {
   margin-left: 6.3rem;
   margin-top:-20em;
   margin-right:6%;
   margin-bottom:2em;
-  width: 23.188rem;
-  height:31.25rem;
 }
 
 .buttons {
@@ -217,19 +212,7 @@ button:hover {
   top: 1rem;
   width:1.75rem;
   height:2rem;
-  left: 67rem;
   font-size: 2.25rem;
-  margin-left: 2.4rem;
-  display: block;
-}
-.formbtn {
-  position: absolute;
-  top: 1rem;
-  width:1.75rem;
-  height:2rem;
-  left: 67rem;
-  font-size: 2.25rem;
-  margin-left: 2.4rem;
   display: block;
 }
 .formbtn :hover {
@@ -275,11 +258,8 @@ button:hover {
 .description{
   height: 1em;
   text-align: right;
-  padding-left: 1.2rem;
-  margin-left: 42rem; /* You can adjust this margin to control the gap */
   margin-top: -5em; /* Remove any top margin */
   margin-bottom: 20em; /* Remove any bottom margin */
-  width: 24rem; /* Let the width adjust according to content */
   display: inline-block; /* Allow the element to be inline with the image */
 }
 
@@ -309,7 +289,7 @@ button:hover {
   font-size: 1.8rem;
   margin-top: auto;
   margin-bottom: 1.875rem;
-  margin-left: 0.625rem;
+  margin-left: 0.5rem;
   margin-right: auto;
   user-select: none;
   -webkit-user-select: none
@@ -319,7 +299,7 @@ button:hover {
 
 /* Position the "next button" to the right */
 .next {
-  left: 31.25rem;
+
   border-radius: 1rem 1rem;
 }
 
@@ -469,6 +449,29 @@ h1{
     left:18vw;
     top: -90vh;
   }
+  h3{
+    font-size: 3.5rem;
+  }
+  .imgFormat{
+    width:31.25rem;
+    height:23.188rem;
+  }
+  .imgFormatVert{
+    height:31.25rem;
+    width:23.188rem;
+  }
+  .description{
+    padding-left: 1.2rem;
+    margin-left: 42rem; /* You can adjust this margin to control the gap */
+    width: 24rem; /* Let the width adjust according to content */
+  }
+  .formbtn {
+    left: 67rem;
+    margin-left: 2.4rem;
+  }
+  .next{
+    left: 31.25rem;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -476,7 +479,32 @@ h1{
   .form-container{
     width:40rem;
     height:30rem;
-    left:8vw;
+    left:5vw;
     top: -190vh;
+  }
+  h3{
+    font-size: 2rem;
+  }
+  .imgFormat{
+    width:20rem;
+    height:15rem;
+  }
+  .imgFormatVert{
+    height:18rem;
+    width:15rem;
+    margin-left: 5.2rem;
+    margin-top:-16em;
+  }
+  .description{
+    padding-left: 0.5rem;
+    margin-left: 22rem; /* You can adjust this margin to control the gap */
+    width: 15rem; /* Let the width adjust according to content */
+  }
+  .formbtn {
+    left: 35rem;
+    margin-left: 2rem;
+  }
+  .next{
+    left: 20rem;
   }
 }
