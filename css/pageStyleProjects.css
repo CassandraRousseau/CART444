@@ -160,8 +160,10 @@ body {
 }
 .imgFormat {
   /*position absolute;*/
+  text-align: left;
+  margin-top: -33em;
+  float:left;
   margin-left: 2.4rem;
-  margin-top:-15em;
   margin-right:6%;
   margin-bottom:1%;
 }
@@ -234,13 +236,15 @@ button:hover {
   }
 
 .description{
-  height: 1em;
+  height: 17em;
   text-align: left;
   margin-top: -5em; /* Remove any top margin */
   margin-bottom: 20em; /* Remove any bottom margin */
   display: inline-block; /* Allow the element to be inline with the image */
+  background-color: #8C4A4D;
+  color: #EEECEB;
+  border-radius: 1.25rem;
 }
-
 
 .mySlides01, .mySlides02, .mySlides03, .mySlides04, .mySlides05{
   display:none;
@@ -360,7 +364,9 @@ h1{
     width:23.188rem;
   }
   .description{
-    padding-left: 1.2rem;
+    padding-left: 0.5rem;
+    padding-right: 2rem;
+   margin-bottom: 1.5rem;
     margin-left: 42rem; /* You can adjust this margin to control the gap */
     width: 24rem; /* Let the width adjust according to content */
 
