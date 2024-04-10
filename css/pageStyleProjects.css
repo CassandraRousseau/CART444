@@ -24,8 +24,8 @@ h2 {
 h3 {
   margin-left: 2.4rem;
 margin-bottom:1em;
-  margin-top:1em;
-  padding-top: 1em;
+  margin-top:0.5em;
+  padding-top: 0.5em;
   padding-bottom:0.5em;
 }
 h4 {
@@ -205,7 +205,7 @@ button:hover {
   /* Add styles to the form container */
   .form-container {
     display: none;
-    position: relative;
+    position: absolute;
     z-index: 0; /* Sit on top */
     color: #2C3130;
     bottom: 0;
@@ -216,7 +216,7 @@ button:hover {
     -webkit-animation-iteration-count: 1;
     -webkit-animation-timing-function: ease;
     -webkit-animation-fill-mode: forwards;
-
+    -webkit-animation-name: cssAnimation;
   }
 .formbtn {
   position: absolute;
@@ -232,40 +232,7 @@ button:hover {
   * {
     box-sizing: border-box;
   }
-  #form01{
-    -webkit-animation-name: cssAnimation01;
-  }
 
-  #form02{
-    -webkit-animation-name: cssAnimation02;
-  }
-  #form03{
-    -webkit-animation-name: cssAnimation03;
-  }
-
-  #form04{
-    -webkit-animation-name: cssAnimation04;
-  }
-  #form05{
-    -webkit-animation-name: cssAnimation05;
-  }
-  #form06{
-    -webkit-animation-name: cssAnimation06;
-  }
-
-#form07{
-  -webkit-animation-name: cssAnimation07;
-}
-
-#form08{
-  -webkit-animation-name: cssAnimation08;
-}
-#form09{
-  -webkit-animation-name: cssAnimation09;
-}
-#form10{
-  -webkit-animation-name: cssAnimation10;
-}
 .description{
   height: 1em;
   text-align: left;
@@ -351,98 +318,18 @@ button:hover {
   to {opacity: 1}
 }
 
-@-webkit-keyframes cssAnimation01 {
+@-webkit-keyframes cssAnimation {
   from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-75vw,-5vh);
+    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(0,250vh);
+    opacity:0;
   }
   to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
+    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,95vh);
+    opacity:1;
   }
 
 }
 
-@-webkit-keyframes cssAnimation02 {
-  from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-10rem,-25rem);
-  }
-  to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
-  }
-
-}
-
-@-webkit-keyframes cssAnimation03 {
-  from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(20rem,-25rem);
-  }
-  to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
-  }
-
-}
-@-webkit-keyframes cssAnimation04 {
-  from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(50rem,-25rem);
-  }
-  to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
-  }
-
-}
-@-webkit-keyframes cssAnimation05 {
-  from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-75rem,5rem);
-  }
-  to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
-  }
-
-}
-@-webkit-keyframes cssAnimation06 {
-  from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-10rem,5rem);
-  }
-  to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
-  }
-
-}
-@-webkit-keyframes cssAnimation07 {
-  from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(20rem,5rem);
-  }
-  to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
-  }
-
-}
-@-webkit-keyframes cssAnimation08 {
-  from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(50rem,5rem);
-  }
-  to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
-  }
-
-}
-@-webkit-keyframes cssAnimation09 {
-  from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-75rem,20rem);
-  }
-  to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
-  }
-
-}
-@-webkit-keyframes cssAnimation10 {
-  from {
-    -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(-10rem,20rem);
-  }
-  to {
-    -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0,0);
-  }
-
-}
 @media screen and (min-width: 601px) {
 h1{
     font-size: 6.5rem;
@@ -459,7 +346,7 @@ h1{
     width:72.625rem;
     height:43.75rem;
     left:18vw;
-    top: -90vh;
+    top: -50vh;
   }
   h3{
     font-size: 3.5rem;
@@ -496,7 +383,6 @@ h1{
     width:40rem;
     height:30rem;
     left:5vw;
-    top: -190vh;
   }
   h3{
     font-size: 2rem;

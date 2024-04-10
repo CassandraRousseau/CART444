@@ -24,6 +24,7 @@ h4 {
   margin-right: auto;
   margin-bottom:1.2rem;
   margin-top:1.5rem;
+  cursor: help;
 }
 #shuffle:hover{
   filter: contrast(200%);
