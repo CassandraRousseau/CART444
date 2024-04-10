@@ -30,18 +30,29 @@ h3 {
 h4 {
     font-size: 3rem;
     margin-left: 2.4rem;
+    margin-bottom: 2.4rem;
+    padding:0;
 }
 .headlines{
     font-size: 2.4rem;
     margin-left: 2.4rem;
+    line-height: 2.2rem;
+    margin-bottom:1.5rem;
+    margin-top:2rem;
+    padding:0;
 }
 p {
+    line-height: 2rem;
     font-size: 1.7rem;
     margin-left: 2.4rem;
+    margin-bottom:1rem;
+    margin-top:1rem;
+    padding:0;
 }
 li{
     font-size: 1.7rem;
     margin-left: 2.4rem;
+    margin-bottom: 0.5rem;
 }
 #menu{
     width:6.25rem;
@@ -52,6 +63,10 @@ li{
     margin-left: auto; /* Pushes the image to the right */
     margin-right: 1.2rem; /* Pushes the image to the right */
     margin-top: 1.2rem; /* Pushes the image to the right */
+}
+#menu:hover{
+    filter: contrast(200%);
+    transition: filter 0.5s;
 }
 body {
     font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
@@ -147,7 +162,10 @@ body {
     margin-left: auto;
     display: flex;
 }
-
+#shuffle:hover{
+    filter: contrast(200%);
+    transition: filter 0.5s;
+}
 @-webkit-keyframes fadeIn {
     from {opacity: 0}
     to {opacity: 1}
@@ -160,7 +178,7 @@ body {
 
 .bubble-main{
     background-color: #FFE1E1;
-    border-radius: 9.6rem;
+    border-radius: 5rem;
     padding:1.5rem;
     max-width: 112rem;
     color:#2C3130;
@@ -176,7 +194,7 @@ body {
 
 .bubble-left, .bubble-right {
     background-color: #BCC1B7;
-    border-radius: 1rem 1rem 11rem 11rem;
+    border-radius: 1rem 1rem 5rem 5rem;
     padding: 1.5rem;
     color: #2C3130;
    width: 47rem;
@@ -192,22 +210,25 @@ body {
 .dark-pink-header{
     background-color: #8C4A4D;
     color: #EEECEB;
-    border-radius: 9.6rem;
+    border-radius: 5rem;
     padding:1.5rem;
     max-width: 112rem;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
-    margin-bottom:6rem;
+    margin-bottom:2rem;
+    margin-top:1.5rem;
+    line-height:2.5rem;
 }
 .dark-green-header{
     background-color: #5E6557;
     color: #EEECEB;
-    border-radius: 1rem 1rem 1rem 1rem;
+    border-radius: 5rem;
     padding:1.5rem;
     max-width: 112rem;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
-    margin-bottom:6rem;
+    margin-bottom:2rem;
+    margin-top:1.5rem;
 }
 @media screen and (min-width: 601px) {
     h1{

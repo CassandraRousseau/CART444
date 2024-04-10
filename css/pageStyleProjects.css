@@ -39,8 +39,11 @@ p {
 }
 
 a {
-  color: #5E6557;
+  color: #577836;
   font-size: 1.1rem;
+  text-align: left;
+  display: inline-block; /* Allow the element to be inline with the image */
+
 }
 a:hover{
   color: #2F332B;
@@ -54,6 +57,10 @@ a:hover{
   margin-left: auto; /* Pushes the image to the right */
   margin-right: 1.2rem; /* Pushes the image to the right */
   margin-top: 1.2rem; /* Pushes the image to the right */
+}
+#shuffle:hover{
+  filter: contrast(200%);
+  transition: filter 0.5s;
 }
 body {
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
@@ -147,6 +154,10 @@ body {
   margin-left: auto;
   display: flex;
 }
+#shuffle:hover{
+  filter: contrast(200%);
+  transition: filter 0.5s;
+}
 .imgFormat {
   /*position absolute;*/
   margin-left: 2.4rem;
@@ -186,7 +197,7 @@ body {
 }
 
 button:hover {
-  background-color: #5E6557;
+  background-color: #577836;
   color: #EEECEB;
   transition: background-color 0.5s, color 0.5s;
 }
@@ -257,7 +268,7 @@ button:hover {
 }
 .description{
   height: 1em;
-  text-align: right;
+  text-align: left;
   margin-top: -5em; /* Remove any top margin */
   margin-bottom: 20em; /* Remove any bottom margin */
   display: inline-block; /* Allow the element to be inline with the image */
@@ -277,7 +288,7 @@ button:hover {
 .next {
   cursor: pointer;
   position: absolute;
-  color:white;
+  color: #2F332B;
   text-align: center;
   bottom: 0;
   width:3rem;
@@ -312,12 +323,13 @@ button:hover {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: #2C1913;
+  background-color: #577836;
+  color: white;
 }
   /* Number text (1/3 etc) */
   .numbertext {
     font-family: "Comfortaa", sans-serif;
-    color: #f2f2f2;
+    color: #2F332B;
     font-size: 0.75rem;
     padding: 0.5rem 0.75rem;
     position: absolute;
@@ -464,6 +476,10 @@ h1{
     padding-left: 1.2rem;
     margin-left: 42rem; /* You can adjust this margin to control the gap */
     width: 24rem; /* Let the width adjust according to content */
+
+  }
+  a{
+    margin-left: 2.2rem; /* You can adjust this margin to control the gap */
   }
   .formbtn {
     left: 67rem;
@@ -499,6 +515,9 @@ h1{
     padding-left: 0.5rem;
     margin-left: 22rem; /* You can adjust this margin to control the gap */
     width: 15rem; /* Let the width adjust according to content */
+  }
+  a{
+    margin-left: 2rem; /* You can adjust this margin to control the gap */
   }
   .formbtn {
     left: 35rem;

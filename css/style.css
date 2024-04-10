@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
+
 body {
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
   background-color: #423531;
@@ -8,6 +9,11 @@ body {
   color:#EEECEB;
   text-align: left;
   min-height:90vh;
+}
+h4 {
+  margin-bottom: 2.4rem;
+  padding:0;
+  line-height: 3.3rem;
 }
 #shuffle{
   width: 12rem;
@@ -17,6 +23,58 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom:1.2rem;
-  margin-top: 20%;
+  margin-top:1.5rem;
+}
+#shuffle:hover{
+  filter: contrast(200%);
+  transition: filter 0.5s;
 }
 
+.dark-pink-header{
+  background-color: #8C4A4D;
+  color: #EEECEB;
+  border-radius: 5rem;
+  padding:1rem;
+  margin-right: 1.2rem;
+  margin-bottom:2rem;
+  margin-top:2rem;
+  line-height:2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.dark-green-header{
+  background-color: #5E6557;
+  color: #EEECEB;
+  border-radius: 5rem;
+  padding:1rem;
+  max-width: 30rem;
+  margin-left: 10rem;
+  margin-right: 1.2rem;
+  margin-bottom:2.2rem;
+  margin-top:3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 1401px) {
+  .dark-pink-header{
+    margin-left: 75rem;
+    max-width: 30rem;
+
+  }
+  h4 {
+    font-size: 3rem;
+    margin-left: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .dark-pink-header{
+    margin-left: 15rem;
+    max-width: 20rem;
+  }
+  h4 {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+  }
+}

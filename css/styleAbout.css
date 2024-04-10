@@ -52,8 +52,14 @@ li{
     margin-left: auto; /* Pushes the image to the right */
     margin-right: 1.2rem; /* Pushes the image to the right */
     margin-top: 1.2rem; /* Pushes the image to the right */
+
 }
 
+#menu:hover{
+filter: contrast(200%);
+    transition: filter 0.5s;
+
+}
 body {
     font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
     background-color: #423531;
@@ -136,12 +142,10 @@ label {
 }
 
 .imgFormat {
-    margin-left: 1rem;
     margin-right:3rem;
     margin-bottom:5rem;
-    height:35rem;
-    width:30rem;
     border-radius: 9.6rem;
+
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -164,10 +168,14 @@ label {
     margin-left: auto;
     display: flex;
 }
+#shuffle:hover{
+    filter: contrast(200%);
+    transition: filter 0.5s;
+}
 .icon{
     width:3rem;
     height:3rem;
-    margin-left: 2.4rem;
+    margin-left: 5rem;
 }
 .icon:hover {
     opacity: 0.6;
@@ -186,7 +194,7 @@ label {
 
 .bubble-pink{
     background-color: #FFE1E1;
-    border-radius: 9.6rem;
+    border-radius: 5rem;
     padding:1.5rem;
     max-width: 112rem;
     color:#2C3130;
@@ -196,7 +204,7 @@ label {
 }
 .bubble-green{
     background-color: #BCC1B7;
-    border-radius: 9.6rem;
+    border-radius: 5rem;
     padding:1.5rem;
     max-width: 112rem;
     color:#2C3130;
@@ -206,7 +214,7 @@ label {
 }
 .bubble-icons{
     background-color: #BCC1B7;
-    border-radius: 9.6rem;
+    border-radius: 5rem;
     padding:1.5rem;
    width: 112rem;
     max-width: 112rem;
@@ -219,10 +227,20 @@ label {
     h1{
         font-size: 6.5rem;
     }
+.imgFormat{
+    height:35rem;
+    width:30rem;
+    margin-left: 1rem;
+}
 }
 
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 5rem;
+    }
+    .imgFormat{
+        height:25rem;
+        width:20rem;
+        margin-left: -1.5rem;
     }
 }
