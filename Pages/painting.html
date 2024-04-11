@@ -8,7 +8,7 @@
     <header>    <img id="menu" onclick="openNav()"src="../images/CART444_menu.png">
         <h1>Cassandra Rousseau</h1>
         <h2>Painting</h2></header>
-
+    <!--Side navigation menu-->
     <div id="mySidenav" class="sidenav">
         <img class="closebtn" onclick="closeNav()" src="../images/CART444_Close.png">
         <a href="../Pages/about.html" >About</a>
@@ -23,13 +23,15 @@
         <a href="../Pages/photography.html"  >Photography</a>
         <a href="../Pages/sculpting.html"  >Sculpting</a>
     </div>
-    <div class="page-container"> <!-- New container div -->
+    <div class="page-container">
+        <!-- Project menu-->
         <div class="buttons">
           <button  id="button01" onclick="ani(this.id)">Chemin des pigments</button>
           <button  id="button02" onclick="ani(this.id)">Implosion/<br/>Explosion</button>
         <button  id="button03" onclick="ani(this.id)">Good Girl</button>
         <button  id="button04" onclick="ani(this.id)">Tristesse cachée</button>
         </div>
+<!--    Chemin des pigments project    -->
         <div id="form01" class="form-container">
             <img class="formbtn"  onclick="closeWindow('form01')" src="../images/CART444_Close.png">
             <h3>Chemin des pigments (2019)</h3>
@@ -38,6 +40,7 @@
             </div>
             <img class="imgFormat" src="../images/chemin-pigments.jpg" alt="The Woods">
           </div>
+<!--    Implosion/Explosion project    -->
         <div id="form02" class="form-container">
             <img class="formbtn"  onclick="closeWindow('form02')" src="../images/CART444_Close.png">
             <h3>Implosion/Explosion (2019)</h3>
@@ -61,6 +64,7 @@
             <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
             <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
           </div>
+<!--   Good Girl project     -->
         <div id="form03" class="form-container">
             <img class="formbtn"  onclick="closeWindow('form03')" src="../images/CART444_Close.png">
             <h3>Good Girl (2019)</h3>
@@ -69,7 +73,7 @@
             </div>
             <img class="imgFormatVert" src="../images/good-girl.jpg" alt="The Woods">
             </div>
-
+<!--Tristesse cachée project-->
         <div id="form04" class="form-container">
             <img class="formbtn"  onclick="closeWindow('form04')" src="../images/CART444_Close.png">
             <h3>Tristesse cachée (2020)</h3>
@@ -78,11 +82,16 @@
             </div>
           <img class="imgFormatVert" src="../images/tristesse-cachee.jpg" alt="The Woods">
         </div>
+        <!--  Random webpage generator button-->
         <footer>
-            <img id="shuffle" onclick="openNav()"src="../images/CART444_shuffle.png">
+            <div class="container">
+                <img id="shuffle" src="../images/CART444_shuffle.png">
+                <div class="overlay">
+                    <div class="text">Want a surprise?</div>
+                </div>
+            </div>
         </footer>
         <script src="../js/menu.js"></script>
-        <script src="../js/loadingPages.js" ></script>
         <script src="../js/generatePages.js"></script>
         <script>
             function ani(buttonId) {

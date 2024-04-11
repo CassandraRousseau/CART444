@@ -11,7 +11,7 @@
   <img id="menu" onclick="openNav()"src="../images/CART444_menu.png">
   <h1>Cassandra Rousseau</h1>
   <h2>Audiovisual</h2></header>
-
+<!--Side navigation menu-->
 <div id="mySidenav" class="sidenav">
   <img class="closebtn" onclick="closeNav()" src="../images/CART444_Close.png">
     <a href="../Pages/about.html" >About</a>
@@ -26,10 +26,12 @@
   <a href="../Pages/photography.html"  >Photography</a>
   <a href="../Pages/sculpting.html"  >Sculpting</a>
 </div>
-<div class="page-container"> <!-- New container div -->
+<div class="page-container">
+  <!-- Project menu-->
   <div class="buttons">
   <button id="button01" onclick="ani(this.id)">YT</button>
   </div>
+<!--  YT project-->
   <div id="form01" class="form-container">
     <img class="formbtn"  onclick="closeWindow('form01')" src="../images/CART444_Close.png">
     <h3>YT (2023)</h3>
@@ -58,11 +60,16 @@
       <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
     </div>
   </div>
+  <!--  Random webpage generator button-->
   <footer>
-    <img id="shuffle" src="../images/CART444_shuffle.png">
+    <div class="container">
+      <img id="shuffle" src="../images/CART444_shuffle.png">
+      <div class="overlay">
+        <div class="text">Want a surprise?</div>
+      </div>
+    </div>
   </footer>
   <script src="../js/menu.js"></script>
-  <script src="../js/loadingPages.js" ></script>
   <script src="../js/generatePages.js"></script>
 
   <script>

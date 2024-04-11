@@ -8,7 +8,7 @@
 <header>    <img id="menu" onclick="openNav()"src="../images/CART444_menu.png">
     <h1>Cassandra Rousseau</h1>
     <h2>Game Development</h2></header>
-
+<!--Side navigation menu-->
 <div id="mySidenav" class="sidenav">
     <img class="closebtn" onclick="closeNav()" src="../images/CART444_Close.png">
     <a href="../Pages/about.html" >About</a>
@@ -23,7 +23,8 @@
     <a href="../Pages/photography.html"  >Photography</a>
     <a href="../Pages/sculpting.html"  >Sculpting</a>
 </div>
-<div class="page-container"> <!-- New container div -->
+<div class="page-container">
+    <!-- Project menu-->
     <div class="buttons">
     <button  id="button01" onclick="ani(this.id)">Coffeeccino</button>
     <button id="button02" onclick="ani(this.id)">Ephemeral</button>
@@ -36,6 +37,7 @@
     <button  id="button09" onclick="ani(this.id)">Scenes from 74 Years</button>
     <button  id="button10" onclick="ani(this.id)">Virtual Zoo</button>
     </div>
+<!--  Coffeeccino project  -->
     <div id="form01" class="form-container">
         <img class="formbtn"  onclick="closeWindow('form01')" src="../images/CART444_Close.png">
         <h3>Coffeeccino (2020)</h3>
@@ -58,7 +60,7 @@
         <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 
 </div>
-
+<!--Ephemeral project-->
     <div id="form02" class="form-container">
         <img class="formbtn"  onclick="closeWindow('form02')" src="../images/CART444_Close.png">
         <h3>Ephemeral (2020)</h3>
@@ -87,7 +89,7 @@
         <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
 </div>
-
+<!--Evergreen project-->
     <div id="form03" class="form-container">
         <img class="formbtn"  onclick="closeWindow('form03')" src="../images/CART444_Close.png">
         <h3>Evergreen (2023)</h3>
@@ -117,6 +119,7 @@
         <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
 </div>
+<!--  Flufluf project  -->
     <div id="form04" class="form-container">
         <img class="formbtn"  onclick="closeWindow('form04')" src="../images/CART444_Close.png">
         <h3>Flufluf (2021)</h3>
@@ -147,6 +150,7 @@
         <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
 </div>
+<!--  Here Comes Quacky! project  -->
     <div id="form05" class="form-container">
         <img class="formbtn"  onclick="closeWindow('form05')" src="../images/CART444_Close.png">
         <h3>Here Comes Quacky! (2021)</h3>
@@ -172,7 +176,7 @@
         <a class="prev" onclick="plusSlides(-1, 4)">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 4)">&#10095;</a>
 </div>
-
+<!--Kiki's Delivery Adventure! project-->
     <div id="form06" class="form-container">
         <img class="formbtn"  onclick="closeWindow('form06')" src="../images/CART444_Close.png">
         <h3>Kiki's Delivery Adventure! (2022)</h3>
@@ -202,7 +206,7 @@
         <a class="prev" onclick="plusSlides(-1, 5)">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 5)">&#10095;</a>
 </div>
-
+<!--Missing Sister project-->
     <div id="form07" class="form-container">
         <img class="formbtn"  onclick="closeWindow('form07')" src="../images/CART444_Close.png">
         <h3>Missing Sister (2023)</h3>
@@ -236,6 +240,7 @@
         <a class="prev" onclick="plusSlides(-1, 6)">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 6)">&#10095;</a>
 </div>
+<!--  The Impossible Platform Game project  -->
     <div id="form08" class="form-container">
         <img class="formbtn"  onclick="closeWindow('form08')" src="../images/CART444_Close.png">
         <h3>The Impossible Platform Game</h3>
@@ -266,6 +271,7 @@
         <a class="prev" onclick="plusSlides(-1, 7)">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 7)">&#10095;</a>
 </div>
+<!-- Scenes from 74 Years project  -->
     <div id="form09" class="form-container">
         <img class="formbtn"  onclick="closeWindow('form09')" src="../images/CART444_Close.png">
         <h3>Scenes from 74 Years (2022)</h3>
@@ -296,6 +302,7 @@
         <a class="prev" onclick="plusSlides(-1, 8)">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 8)">&#10095;</a>
 </div>
+<!--  Virtual Zoo project  -->
     <div id="form10" class="form-container">
         <img class="formbtn"  onclick="closeWindow('form10')" src="../images/CART444_Close.png">
         <h3>Virtual Zoo (2022)</h3>
@@ -319,11 +326,16 @@
         <a class="prev" onclick="plusSlides(-1, 9)">&#10094;</a>
         <a class="next" onclick="plusSlides(1, 9)">&#10095;</a>
 </div>
+    <!--  Random webpage generator button-->
     <footer>
-        <img id="shuffle" onclick="openNav()"src="../images/CART444_shuffle.png">
+        <div class="container">
+            <img id="shuffle" src="../images/CART444_shuffle.png">
+            <div class="overlayThree">
+                <div class="text">Want a surprise?</div>
+            </div>
+        </div>
     </footer>
     <script src="../js/menu.js"></script>
-    <script src="../js/loadingPages.js" ></script>
     <script src="../js/generatePages.js"></script>
     <script>
         function ani(buttonId) {

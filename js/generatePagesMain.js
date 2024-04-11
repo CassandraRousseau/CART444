@@ -1,3 +1,5 @@
+// Code allowing to generate random page when shuffle button pressed on the homepage
+// Array of all my website webpages
 var urls = [
     "Pages/animation.html",
     "Pages/audiovisual.html",
@@ -10,7 +12,6 @@ var urls = [
     "Pages/sculpting.html",
     "Pages/about.html",
     "Pages/CV.html"
-    // Add more URLs as needed
 ];
 
 // Function to generate a random URL and redirect to it
@@ -22,11 +23,3 @@ function redirectToRandomPage() {
 
 // Event listener for button click
 document.getElementById('shuffle').addEventListener('click', redirectToRandomPage);
-// "../CART444/Pages/animation.html",
-//     "../CART444/Pages/dance.html",
-//     "https://cassandrarousseau.github.io/CART444/Pages/design.html",
-//     "../CART444/Pages/drawing.html",
-//     "../CART444/Pages/game-development.html",
-//     "../CART444/Pages/painting.html",
-//     "../CART444/Pages/photography.html",
-//     "../CART444/Pages/sculpting.html"

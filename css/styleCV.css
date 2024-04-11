@@ -154,6 +154,9 @@ body {
     position: relative; /* Ensure positioning context for absolute positioning */
 }
 
+.text {
+    font-size: 1.6rem;
+}
 #shuffle{
     width: 6.25rem;
     height: 6.25rem;
@@ -162,9 +165,24 @@ body {
     margin-left: auto;
     display: flex;
 }
+.container {
+    position: block;
+}
+
+.overlay {
+    position: absolute;
+    top:833vh;
+    left:80vw;
+    opacity: 0;
+    transition: .5s ease;
+}
+
 #shuffle:hover{
     filter: contrast(200%);
     transition: filter 0.5s;
+}
+.container:hover .overlay{
+    opacity: 1;
 }
 @-webkit-keyframes fadeIn {
     from {opacity: 0}

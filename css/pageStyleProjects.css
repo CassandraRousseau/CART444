@@ -143,7 +143,9 @@ body {
   position: relative; /* Ensure positioning context for absolute positioning */
 }
 
-
+.text {
+  font-size: 1.6rem;
+}
 #shuffle{
   width: 6.25rem;
   height: 6.25rem;
@@ -152,10 +154,39 @@ body {
   margin-left: auto;
   display: flex;
 }
+.container {
+  position: block;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0;
+  transition: .5s ease;
+}
+.overlayTwo{
+  position: absolute;
+  opacity: 0;
+  transition: .5s ease;
+}
+.overlayThree{
+  position: absolute;
+  opacity: 0;
+  transition: .5s ease;
+}
 #shuffle:hover{
   filter: contrast(200%);
   transition: filter 0.5s;
 }
+.container:hover .overlay{
+  opacity: 1;
+}
+.container:hover .overlayTwo{
+  opacity: 1;
+}
+.container:hover .overlayThree{
+  opacity: 1;
+}
+
 .imgFormat {
   text-align: left;
   float:left;
@@ -383,6 +414,18 @@ height:20em;
   .next{
     left: 31.25rem;
   }
+  .overlay {
+    top:87vh;
+    left:83vw;
+  }
+  .overlayTwo{
+    top:120vh;
+    left:83vw;
+  }
+  .overlayThree{
+    top:154vh;
+    left:83vw;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -433,5 +476,17 @@ height:20em;
   }
   .next{
     left: 20rem;
+  }
+  .overlay {
+    top:283vh;
+    left:44vw;
+  }
+  .overlayTwo{
+    top:381vh;
+    left:44vw;
+  }
+  .overlayThree{
+    top:590vh;
+    left:44vw;
   }
 }

@@ -1,3 +1,5 @@
+// Code allowing to generate random page when shuffle button pressed
+// Array of all my website webpages
 var urls = [
     "../Pages/animation.html",
     "../Pages/audiovisual.html",
@@ -10,7 +12,6 @@ var urls = [
     "../Pages/sculpting.html",
     "../Pages/about.html",
     "../Pages/CV.html"
-    // Add more URLs as needed
 ];
 
 // Function to generate a random URL and redirect to it

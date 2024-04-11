@@ -15,22 +15,37 @@ h4 {
   padding:0;
   line-height: 3.3rem;
 }
+.text {
+  font-size: 2.5rem;
+}
 #shuffle{
   width: 12rem;
   height: 12rem;
   right: 1.563rem; /* Adjust right position */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom:1.2rem;
   margin-top:1.5rem;
-  cursor: help;
+  cursor: pointer;
+}
+.container {
+  position: block;
+  margin-left: 43vw;
+  margin-right: 12rem;
+}
+
+.overlay {
+  position: absolute;
+  top:17rem;
+  left:46rem;
+  opacity: 0;
+  transition: .5s ease;
 }
 #shuffle:hover{
   filter: contrast(200%);
   transition: filter 0.5s;
 }
-
+.container:hover .overlay{
+  opacity: 1;
+}
 .dark-pink-header{
   background-color: #8C4A4D;
   color: #EEECEB;

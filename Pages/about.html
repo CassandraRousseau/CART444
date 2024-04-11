@@ -10,7 +10,7 @@
 <header>    <img id="menu" onclick="openNav()" src="../images/CART444_menu.png">
   <h1>Cassandra Rousseau</h1>
   <h2>About</h2></header>
-
+<!--Side navigation menu-->
 <div id="mySidenav" class="sidenav">
   <img class="closebtn" onclick="closeNav()" src="../images/CART444_Close.png">
   <a href="../Pages/about.html" >About</a>
@@ -26,7 +26,8 @@
   <a href="../Pages/sculpting.html"  >Sculpting</a>
 </div>
 
-<div class="page-container"> <!-- New container div -->
+<div class="page-container">
+  <!-- Artist statement-->
   <table class="bubble-green" >
     <tr>
       <td>
@@ -37,6 +38,7 @@
     </tr>
   </table>
   <p></p>
+<!--  Artist biography-->
   <table class="bubble-pink">
     <tr>
       <td>
@@ -51,6 +53,7 @@
   </table>
   <table class="bubble-icons">
     <tr>
+<!--      Contact section-->
       <td>
         <h4>Contact Me</h4>
         <a href="https://www.instagram.com/cassandra_rousseau_art/"><img class="icon" src="../images/IG-icon.png"></a>
@@ -60,12 +63,17 @@
       </td>
     </tr>
   </table>
+<!--  Random webpage generator button-->
   <footer>
-    <img id="shuffle" onclick="openNav()"src="../images/CART444_shuffle.png">
+    <div class="container">
+      <img id="shuffle" src="../images/CART444_shuffle.png">
+      <div class="overlay">
+        <div class="text">Want a surprise?</div>
+      </div>
+    </div>
   </footer>
 </div>
 <script src="../js/menu.js"></script>
-<script src="../js/loadingPages.js" ></script>
 <script src="../js/generatePages.js"></script>
 </body>
 </html>
