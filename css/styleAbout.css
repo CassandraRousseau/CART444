@@ -176,8 +176,6 @@ label {
 
 .overlay {
     position: absolute;
-    top:282vh;
-    left:80vw;
     opacity: 0;
     transition: .5s ease;
 }
@@ -234,7 +232,6 @@ label {
     border-radius: 5rem;
     padding:1.5rem;
    width: 112rem;
-    max-width: 112rem;
     color:#2C3130;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
@@ -249,6 +246,14 @@ label {
     width:30rem;
     margin-left: 1rem;
 }
+
+    .overlay {
+        top:282vh;
+        left:80vw;
+    }
+    .bubble-icons{
+        max-width: 112rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -259,5 +264,13 @@ label {
         height:25rem;
         width:20rem;
         margin-left: -1.5rem;
+    }
+
+    .overlay {
+        top:1503vh;
+        left:33vw;
+    }
+    .bubble-icons{
+        max-width: 28rem;
     }
 }

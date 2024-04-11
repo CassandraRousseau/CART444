@@ -171,8 +171,6 @@ body {
 
 .overlay {
     position: absolute;
-    top:833vh;
-    left:80vw;
     opacity: 0;
     transition: .5s ease;
 }
@@ -252,10 +250,18 @@ body {
     h1{
         font-size: 6.5rem;
     }
+    .overlay{
+        top:833vh;
+        left:80vw;
+    }
 }
 
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 5rem;
+    }
+    .overlay{
+        top:2147vh;
+        left:33vw;
     }
 }
