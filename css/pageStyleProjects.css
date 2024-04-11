@@ -27,20 +27,16 @@ margin-bottom:1em;
   margin-top:0.5em;
   padding-top: 0.5em;
   padding-bottom:0.5em;
+  display:flex;
 }
 h4 {
   font-size: 3rem;
   margin-left: 2.4rem;
 }
 
-p {
-  font-size: 1.3rem;
-  margin-left: 2.4rem;
-}
 
 a {
-  color: #577836;
-  font-size: 1.1rem;
+  color: #a0c977;
   text-align: left;
   display: inline-block; /* Allow the element to be inline with the image */
 
@@ -58,10 +54,12 @@ a:hover{
   margin-right: 1.2rem; /* Pushes the image to the right */
   margin-top: 1.2rem; /* Pushes the image to the right */
 }
-#shuffle:hover{
+#menu:hover{
   filter: contrast(200%);
   transition: filter 0.5s;
+
 }
+
 body {
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
   background-color: #423531;
@@ -159,9 +157,7 @@ body {
   transition: filter 0.5s;
 }
 .imgFormat {
-  /*position absolute;*/
   text-align: left;
-  margin-top: -33em;
   float:left;
   margin-left: 2.4rem;
   margin-right:6%;
@@ -169,7 +165,6 @@ body {
 }
 .imgFormatVert {
   margin-left: 6.3rem;
-  margin-top:-20em;
   margin-right:6%;
   margin-bottom:2em;
 }
@@ -236,10 +231,7 @@ button:hover {
   }
 
 .description{
-  height: 17em;
   text-align: left;
-  margin-top: -5em; /* Remove any top margin */
-  margin-bottom: 20em; /* Remove any bottom margin */
   display: inline-block; /* Allow the element to be inline with the image */
   background-color: #8C4A4D;
   color: #EEECEB;
@@ -354,25 +346,35 @@ h1{
   }
   h3{
     font-size: 3.5rem;
+    flex-wrap:nowrap;
+  }
+  p{
+    font-size: 1.3rem;
+    margin-left: 2.4rem;
   }
   .imgFormat{
     width:31.25rem;
     height:23.188rem;
+    margin-top: -20em;
   }
   .imgFormatVert{
     height:31.25rem;
     width:23.188rem;
+    margin-top: -22em;
   }
   .description{
     padding-left: 0.5rem;
     padding-right: 2rem;
-   margin-bottom: 1.5rem;
+    padding-bottom: 2rem;
+   margin-bottom: 3rem;
     margin-left: 42rem; /* You can adjust this margin to control the gap */
     width: 24rem; /* Let the width adjust according to content */
-
+height:20em;
+    margin-top: -5em; /* Remove any top margin */
   }
   a{
     margin-left: 2.2rem; /* You can adjust this margin to control the gap */
+    font-size: 1.1rem;
   }
   .formbtn {
     left: 67rem;
@@ -391,25 +393,39 @@ h1{
     left:5vw;
   }
   h3{
-    font-size: 2rem;
+    font-size: 1.6rem;
+    flex-wrap:wrap;
+  }
+  p{
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+    margin-left: 1.5rem;
   }
   .imgFormat{
     width:20rem;
     height:15rem;
+    margin-top: -23em;
   }
   .imgFormatVert{
     height:18rem;
     width:15rem;
     margin-left: 5.2rem;
-    margin-top:-16em;
+    margin-top: -24em;
   }
   .description{
     padding-left: 0.5rem;
-    margin-left: 22rem; /* You can adjust this margin to control the gap */
-    width: 15rem; /* Let the width adjust according to content */
+    margin-left: 26rem; /* You can adjust this margin to control the gap */
+    width: 10rem; /* Let the width adjust according to content */
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+    height:25em;
+    margin-top: -2em; /* Remove any top margin */
   }
   a{
-    margin-left: 2rem; /* You can adjust this margin to control the gap */
+    margin-left: 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
   }
   .formbtn {
     left: 35rem;
