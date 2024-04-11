@@ -404,22 +404,22 @@ height:20em;
   .imgFormat{
     width:20rem;
     height:15rem;
-    margin-top: -23em;
+    margin-top: -20em;
   }
   .imgFormatVert{
     height:18rem;
     width:15rem;
     margin-left: 5.2rem;
-    margin-top: -24em;
+    margin-top: -22em;
   }
   .description{
     padding-left: 0.5rem;
-    margin-left: 26rem; /* You can adjust this margin to control the gap */
-    width: 10rem; /* Let the width adjust according to content */
+    margin-left: 24rem; /* You can adjust this margin to control the gap */
+    width: 12rem; /* Let the width adjust according to content */
     padding-right: 2rem;
     padding-bottom: 2rem;
     margin-bottom: 3rem;
-    height:25em;
+    height:20em;
     margin-top: -2em; /* Remove any top margin */
   }
   a{
