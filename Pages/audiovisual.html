@@ -24,42 +24,15 @@
 <div class="page-container">
   <!-- Project menu-->
   <div class="buttons">
-  <button id="button01" onclick="ani(this.id)">YT</button>
-  </div>
-<!--  YT project-->
-  <div id="form01" class="form-container">
-    <img class="formbtn"  onclick="closeWindow('form01')" src="../images/CART444_Close.png">
-    <h3>YT (2023)</h3>
-            <div class="description">
-            <p>Video series exploring the visual patterns of videos uploaded on YouTube.<br>Video editing made with Premiere Pro, data collection made with MongoDB.<br>Video lasting 5:30min each.</p>
-            <a href="https://www.youtube.com/playlist?list=PLLOPrOMxzhqbmVTd0xtS9RN7y86l5Mg7n"  target="_blank" ><strong>Click here to watch the videos</strong></a>
-            </div>
-    <div class="slideshow-container">
-      <div class="mySlides01">
-        <div class="numbertext">1 / 4</div>
-        <img class="imgFormat" src="../images/YT01.PNG">
-      </div>
-      <div class="mySlides01">
-        <div class="numbertext">2 / 4</div>
-        <img class="imgFormat" src="../images/YT02.PNG">
-      </div>
-      <div class="mySlides01">
-        <div class="numbertext">3 / 4</div>
-        <img class="imgFormat" src="../images/YT03.PNG">
-      </div>
-      <div class="mySlides01">
-        <div class="numbertext">4 / 4</div>
-        <img class="imgFormat" src="../images/YT04.PNG">
-      </div>
-      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-    </div>
+  <button id="button01" onclick="ani(this.id)">Dr.Bebe</button>
+  <button id="button02" onclick="ani(this.id)">Ready to Love</button>
+  <button id="button03" onclick="ani(this.id)">YT</button>
   </div>
 
 
 <!--    Dr.Bebe project-->
-<div id="form02" class="form-container">
-  <img class="formbtn"  onclick="closeWindow('form02')" src="../images/CART444_Close.png">
+<div id="form01" class="form-container">
+  <img class="formbtn"  onclick="closeWindow('form01')" src="../images/CART444_Close.png">
   <h3>Dr.Bebe (2021)</h3>
   <div class="description">
       <p>K-cover project with the collective group Kollective,performed and edited the original cover.<br>Video edited with Premiere Pro, K-Pop dance style.<br>Video lasting 3:25min.</p>
@@ -68,22 +41,24 @@
   </div>
   <img class="imgFormat" src="../images/Dr-bebe.jpg" alt="The Woods">
 </div>
-
+<div class="buttons">
+  <button id="button01" onclick="ani(this.id)">YT</button>
+  </div>
 
 <!--   Ready to Love project -->
-<div id="form04" class="form-container">
-  <img class="formbtn"  onclick="closeWindow('form04')" src="../images/CART444_Close.png">
+<div id="form02" class="form-container">
+  <img class="formbtn"  onclick="closeWindow('form02')" src="../images/CART444_Close.png">
   <h3>Ready to Love (2021)</h3>
   <div class="description">
   <p>K-cover made under the dance collective Kollective, performed and edited the cover.<br>Video edited with Premiere Pro, K-Pop dance style.<br>Video lasting 4:01min.</p>
   <a href="https://youtu.be/nzRawHz9ZxU?si=TyVjM59F7jQ0AZ0q"  target="_blank" ><strong>Click here to watch the performance</strong></a>
   </div>
   <div class="slideshow-container">
-  <div class="mySlides03">
+  <div class="mySlides02">
       <div class="numbertext">1 / 2</div>
       <img class="imgFormat" src="../images/ready-to-love.jpg" alt="The Woods">
   </div>
-  <div class="mySlides03">
+  <div class="mySlides02">
       <div class="numbertext">2 / 2</div>
       <img class="imgFormat" src="../images/ready-to-love03.jpg" alt="The Woods">
   </div>
@@ -91,6 +66,42 @@
   <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
   <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
 </div>
+
+
+<!--  YT project-->
+  <div id="form03" class="form-container">
+    <img class="formbtn"  onclick="closeWindow('form03')" src="../images/CART444_Close.png">
+    <h3>YT (2023)</h3>
+            <div class="description">
+            <p>Video series exploring the visual patterns of videos uploaded on YouTube.<br>Video editing made with Premiere Pro, data collection made with MongoDB.<br>Video lasting 5:30min each.</p>
+            <a href="https://www.youtube.com/playlist?list=PLLOPrOMxzhqbmVTd0xtS9RN7y86l5Mg7n"  target="_blank" ><strong>Click here to watch the videos</strong></a>
+            </div>
+    <div class="slideshow-container">
+      <div class="mySlides03">
+        <div class="numbertext">1 / 4</div>
+        <img class="imgFormat" src="../images/YT01.PNG">
+      </div>
+      <div class="mySlides03">
+        <div class="numbertext">2 / 4</div>
+        <img class="imgFormat" src="../images/YT02.PNG">
+      </div>
+      <div class="mySlides03">
+        <div class="numbertext">3 / 4</div>
+        <img class="imgFormat" src="../images/YT03.PNG">
+      </div>
+      <div class="mySlides03">
+        <div class="numbertext">4 / 4</div>
+        <img class="imgFormat" src="../images/YT04.PNG">
+      </div>
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <button id="button01" onclick="ani(this.id)">YT</button>
+    </div>
+
 
   <!--  Random webpage generator button-->
   <footer>
@@ -129,9 +140,13 @@
         button.style.opacity = 1; // Reset opacity to 1 for all buttons
         button.style.pointerEvents = "auto"; // Re-enable pointer events for all buttons
       });}
-    let slideIndex = [1];
-    let slideId = ["mySlides01"]
+    
+      let slideIndex = [1,1];
+    let slideId = ["mySlides01", "mySlides02", "mySlides03"]
     showSlides(1, 0);
+    showSlides(1, 1);
+    showSlides(1, 2);
+    showSlides(1, 3);  // Add additional calls for each slideshow
     function plusSlides(n, no) {
       showSlides(slideIndex[no] += n, no);
       console.log(plusSlides);
