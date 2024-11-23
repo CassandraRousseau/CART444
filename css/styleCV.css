@@ -74,7 +74,7 @@ body {
     background-image: linear-gradient(#9A7F77,#6F5953,#423531,#322825,#211B19,#110D0C,#000000);
     color:#EEECEB;
     text-align: left; /* center the text */
-    min-height:90vh;
+    min-height:50vh;
 }
 .sidenav {
     height: 100%;
@@ -122,7 +122,7 @@ body {
 
 
 .parallax {
-    height: 15rem; /* fallback for older browsers */
+    height: 31.25rem; /* fallback for older browsers */
     width: 67.5rem;
     font-size: 2rem;
     overflow-x: hidden;
@@ -133,7 +133,7 @@ body {
 
 .parallax__group {
     position: relative;
-    height: 15rem; /* fallback for older browsers */
+    height: 31.25rem; /* fallback for older browsers */
     width: 67.5rem;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
