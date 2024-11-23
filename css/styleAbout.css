@@ -5,7 +5,7 @@ header{
     font-family: 'Atkinson Hyperlegible', 'Roboto Serif', sans-serif;
     display: flex;
     flex-direction: column; /* Stack children vertically */
-    align-items: left /* Center items horizontally */
+    align-items: left; /* Center items horizontally */
     text-align: center; /* Center text */
 }
 /* Increase the font size of the <h1> element */

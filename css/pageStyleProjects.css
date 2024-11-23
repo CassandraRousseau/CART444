@@ -5,7 +5,7 @@ header{
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif', sans-serif;
   display: flex;
   flex-direction: column; /* Stack children vertically */
-  align-items: left /* Center items horizontally */
+  align-items: left; /* Center items horizontally */
   text-align: center; /* Center text */
 }
 /* Increase the font size of the <h1> element */
@@ -13,7 +13,7 @@ h1 {
   margin-left: 3rem;
   margin-top: 0;
   margin-bottom:6rem;
-  text-size-adjust: 75%;
+  font-size-adjust: 75%;
 }
 h2 {
   font-size: 4rem;
@@ -240,11 +240,11 @@ button:hover {
     right: 30em;
     border-radius: 1.25rem;
     background-color: #FFE1E1;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-iteration-count: 1;
-    -webkit-animation-timing-function: ease;
-    -webkit-animation-fill-mode: forwards;
-    -webkit-animation-name: cssAnimation;
+animation-duration: 3s;
+ animation-iteration-count: 1;
+   animation-timing-function: ease;
+   animation-fill-mode: forwards;
+   animation-name: cssAnimation;
   }
 .formbtn {
   position: absolute;
@@ -296,9 +296,8 @@ button:hover {
   margin-bottom: 1.875rem;
   margin-left: 0.5rem;
   margin-right: auto;
-  user-select: none;
-  -webkit-user-select: none
-
+  -webkit-user-select: none;
+  user-select: none
 
 }
 
@@ -345,7 +344,7 @@ button:hover {
   to {opacity: 1}
 }
 
-@-webkit-keyframes cssAnimation {
+@keyframes cssAnimation {
   from {
     -webkit-transform: rotate(0deg) scale(0.5) skew(0deg) translate(0,250vh);
     opacity:0;
