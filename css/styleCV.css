@@ -74,7 +74,7 @@ body {
     background-image: linear-gradient(#9A7F77,#6F5953,#423531,#322825,#211B19,#110D0C,#000000);
     color:#EEECEB;
     text-align: left; /* center the text */
-  height:100%;
+  max-height: 25vh;
     
 }
 .sidenav {
