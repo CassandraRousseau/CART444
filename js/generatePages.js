@@ -3,13 +3,8 @@
 var urls = [
     "../Pages/animation.html",
     "../Pages/audiovisual.html",
-    "../Pages/dance.html",
     "../Pages/design.html",
-    "../Pages/drawing.html",
     "../Pages/game-development.html",
-    "../Pages/painting.html",
-    "../Pages/photography.html",
-    "../Pages/sculpting.html",
     "../Pages/about.html",
     "../Pages/CV.html"
 ];
