@@ -214,14 +214,15 @@ body {
     padding: 1.5rem;
     color: #2C3130;
    width: 45rem;
-    margin-right: 1.3rem;
     margin-bottom:6rem;
 }
 .bubble-left {
-margin-left: 1.2rem;; /* Pushes the bubble to the right */
+margin-left: 1.2rem; /* Pushes the bubble to the right */
+margin-right: 1rem;
 }
 .bubble-right {
     margin-left: 1rem; /* Pushes the bubble to the right */
+    margin-right: 1.3rem;
 }
 .dark-pink-header{
     background-color: #8C4A4D;
