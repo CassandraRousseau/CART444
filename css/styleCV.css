@@ -75,6 +75,7 @@ body {
     color:#EEECEB;
     text-align: left; /* center the text */
     min-height:50vh;
+    max-height:50vh;
 }
 .sidenav {
     height: 100%;
