@@ -55,6 +55,7 @@ h4 {
 
 .buttons {
 font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
+font-weight:bold;
 background-color: #E3CACB;
   border: none;
   color:#2C3130;
@@ -68,22 +69,12 @@ background-color: #E3CACB;
   width: 22.375rem;
 height:13.875rem;
 border-radius: 1.25rem;
-}
-
-
-/* 
-
-font-weight:bold;
-
-border: none;
 opacity: 1;
 align-items: center;
 margin: 3rem;
 justify-content: space-between;
-
-
-transform-origin: center; */
-
+transform-origin: center;
+}
 
 button:hover {
   background-color: #577836;
