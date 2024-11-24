@@ -215,7 +215,7 @@ body {
     height: 30%; /* Should be removed. Only for demonstration */
 
     background-color: #BCC1B7;
-    border-radius: 5rem;
+
     padding:1.5rem;
     color:#2C3130;
 
@@ -227,6 +227,7 @@ body {
     content: "";
     display: table;
     clear: both;
+    border-radius: 5rem;
   }
 .bubble-left, .bubble-right {
     background-color: #BCC1B7;
