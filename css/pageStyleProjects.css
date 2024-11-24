@@ -6,18 +6,17 @@ header{
   display: flex;
   flex-direction: column; /* Stack children vertically */
   align-items: left; /* Center items horizontally */
-  text-align: center; /* Center text */
+  text-align: left; /* Center text */
 }
-/* Increase the font size of the <h1> element */
 h1 {
   margin-left: 3rem;
-  margin-top: 0;
-  margin-bottom:6rem;
-  font-size: 75%;
+  margin-top: 2rem;
+  margin-bottom:2rem;
+  font-size: 5rem;
 }
 h2 {
-  font-size: 4rem;
-  margin-left: 2.4rem;
+  font-size: 3rem;
+  margin-left: 3.2rem;
   margin-top: 0;
   margin-bottom:6rem;
 }
