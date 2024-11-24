@@ -209,7 +209,17 @@ body {
     flex-wrap: wrap;
 }
 
-.bubble-left, .bubble-right, .bubble-green {
+.bubble-left, .bubble-right {
+    background-color: #BCC1B7;
+    border-radius: 1rem 1rem 5rem 5rem;
+    padding: 1.5rem;
+    color: #2C3130;
+   width: 45rem;
+    margin-bottom:6rem;
+}
+
+
+.bubble-green {
     background-color: #BCC1B7;
     border-radius: 1rem 1rem 5rem 5rem;
     padding: 1.5rem;
