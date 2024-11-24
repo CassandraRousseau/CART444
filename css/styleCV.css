@@ -221,12 +221,12 @@ body {
 
 .bubble-center {
     background-color: #BCC1B7;
-    border-radius: 5rem;
+    border-radius: 1rem 1rem 5rem 5rem;
     padding:1.5rem;
-    max-width: 112rem;
+    width: 60rem;
     color: #2C3130;
     margin-left: 1.2rem;
-    margin-right: 1.2rem;
+    margin-right: 1rem;
     margin-bottom:6rem;
 
 }
