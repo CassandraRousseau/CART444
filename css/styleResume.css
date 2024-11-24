@@ -34,9 +34,13 @@ h4 {
     padding:0;
 }
 .headlines{
-     font-size: 2.4rem;
-     margin-left: 2.4rem;
- }
+    font-size: 2.4rem;
+    margin-left: 2.4rem;
+    line-height: 2.2rem;
+    margin-bottom:1.5rem;
+    margin-top:2rem;
+    padding:0;
+}
 p {
     font-size: 1.7rem;
     margin-left: 2.4rem;
