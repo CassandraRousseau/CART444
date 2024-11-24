@@ -23,11 +23,7 @@ h4 {
   margin-top:1.5rem;
   cursor: pointer;
 }
-.container {
-  position: block;
-  margin-left: 43vw;
-  margin-right: 12rem;
-}
+
 
 .overlay {
   position: absolute;
@@ -57,8 +53,19 @@ h4 {
 }
 
 
-
-.buttons {
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.boo {
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
   background-color: #E3CACB;
   font-size: 1.7rem;
