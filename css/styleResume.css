@@ -226,17 +226,17 @@ body {
 }
 
 
-
-.bubble-icons{
-    background-color: #BCC1B7;
+.dark-green{
+    background-color: #5E6557;
     border-radius: 5rem;
     padding:1.5rem;
-   width: 112rem;
+    max-width: 112rem;
     color:#2C3130;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-bottom:6rem;
 }
+
 @media screen and (min-width: 601px) {
     h1{
         font-size: 6.5rem;
