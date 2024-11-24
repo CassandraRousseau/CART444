@@ -56,10 +56,7 @@ h4 {
   flex-wrap: wrap;
 }
 
-.buttons {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 button {
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
@@ -79,6 +76,8 @@ button {
   height:13.875rem;
   border-radius: 1.25rem;
   transform-origin: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 button:hover {
