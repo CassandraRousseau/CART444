@@ -67,6 +67,7 @@ background-color: #E3CACB;
   cursor: pointer;
   width: 22.375rem;
 height:13.875rem;
+border-radius: 1.25rem;
 }
 
 
@@ -80,7 +81,7 @@ align-items: center;
 margin: 3rem;
 justify-content: space-between;
 
-border-radius: 1.25rem;
+
 transform-origin: center; */
 
 
