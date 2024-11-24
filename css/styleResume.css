@@ -30,29 +30,18 @@ h3 {
 h4 {
     font-size: 3rem;
     margin-left: 2.4rem;
-    margin-bottom: 2.4rem;
-    padding:0;
 }
 .headlines{
-    font-size: 2.4rem;
-    margin-left: 2.4rem;
-    line-height: 2.2rem;
-    margin-bottom:1.5rem;
-    margin-top:2rem;
-    padding:0;
-}
+     font-size: 2.4rem;
+     margin-left: 2.4rem;
+ }
 p {
-    line-height: 2rem;
     font-size: 1.7rem;
     margin-left: 2.4rem;
-    margin-bottom:1rem;
-    margin-top:1rem;
-    padding:0;
 }
 li{
-    font-size: 1.7rem;
+    font-size: 1rem;
     margin-left: 2.4rem;
-    margin-bottom: 0.5rem;
 }
 #menu{
     width:6.25rem;
@@ -63,10 +52,13 @@ li{
     margin-left: auto; /* Pushes the image to the right */
     margin-right: 1.2rem; /* Pushes the image to the right */
     margin-top: 1.2rem; /* Pushes the image to the right */
+
 }
+
 #menu:hover{
-    filter: contrast(200%);
+filter: contrast(200%);
     transition: filter 0.5s;
+
 }
 body {
     font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
@@ -74,8 +66,7 @@ body {
     background-image: linear-gradient(#9A7F77,#6F5953,#423531,#322825,#211B19,#110D0C,#000000);
     color:#EEECEB;
     text-align: left; /* center the text */
-  max-height: 25vh;
-    
+    min-height:90vh;
 }
 .sidenav {
     height: 100%;
@@ -88,7 +79,6 @@ body {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 3.75rem;
-
 }
 
 .sidenav a {
@@ -116,6 +106,8 @@ body {
     font-size: 2.25rem;
     margin-left: 3.125rem;
 }
+
+
 @media screen and (max-height: 28.125rem) {
     .sidenav {padding-top: 0.938rem;}
     .sidenav a {font-size: 1.125rem;}
@@ -143,6 +135,18 @@ body {
 /* Add styles to the form container */
 
 
+label {
+    font-size: 1rem;
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+}
+
+.imgFormat {
+    margin-right:3rem;
+    margin-bottom:5rem;
+    border-radius: 6rem;
+
+}
 
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
@@ -161,7 +165,7 @@ body {
 #shuffle{
     width: 6.25rem;
     height: 6.25rem;
-    margin-bottom:0.2rem;
+    margin-bottom:1.2rem;
     margin-right:1.2rem;
     margin-left: auto;
     display: flex;
@@ -183,6 +187,15 @@ body {
 .container:hover .overlay{
     opacity: 1;
 }
+.icon{
+    width:3rem;
+    height:3rem;
+    margin-left: 5rem;
+}
+.icon:hover {
+    opacity: 0.6;
+    transition: opacity 0.5s;
+}
 @-webkit-keyframes fadeIn {
     from {opacity: 0}
     to {opacity: 1}
@@ -192,17 +205,9 @@ body {
     from {opacity: 0}
     to {opacity: 1}
 }
-.green-bg{
-    background-color: #BCC1B7;
-    border-radius: 5rem;
-    padding:1.5rem;
-    max-width: 112rem;
-    color:#2C3130;
-    margin-left: 1.2rem;
-    margin-right: 1.2rem;
-    margin-bottom:6rem;
-}
-.bubble-main{
+
+
+.bubble-pink{
     background-color: #FFE1E1;
     border-radius: 5rem;
     padding:1.5rem;
@@ -212,43 +217,42 @@ body {
     margin-right: 1.2rem;
     margin-bottom:6rem;
 }
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.dark-pink-header{
-    background-color: #8C4A4D;
-    color: #EEECEB;
+.bubble-green{
+    background-color: #BCC1B7;
     border-radius: 5rem;
     padding:1.5rem;
     max-width: 112rem;
+    color:#2C3130;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
-    margin-bottom:2rem;
-    margin-top:1.5rem;
-    line-height:2.5rem;
+    margin-bottom:6rem;
 }
-.dark-green-header{
-    background-color: #5E6557;
-    color: #EEECEB;
+.bubble-icons{
+    background-color: #BCC1B7;
     border-radius: 5rem;
     padding:1.5rem;
-    max-width: 112rem;
+   width: 112rem;
+    color:#2C3130;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
-    margin-bottom:2rem;
-    margin-top:1.5rem;
+    margin-bottom:6rem;
 }
 @media screen and (min-width: 601px) {
     h1{
         font-size: 6.5rem;
     }
-    .overlay{
-        top:833vh;
+.imgFormat{
+    height:35rem;
+    width:25rem;
+    margin-left: 1rem;
+}
+
+    .overlay {
+        top:282vh;
         left:80vw;
+    }
+    .bubble-icons{
+        max-width: 112rem;
     }
 }
 
@@ -256,8 +260,17 @@ body {
     h1 {
         font-size: 5rem;
     }
-    .overlay{
-        top:2147vh;
+    .imgFormat{
+        height:25rem;
+        width:20rem;
+        margin-left: -1.5rem;
+    }
+
+    .overlay {
+        top:1503vh;
         left:33vw;
+    }
+    .bubble-icons{
+        max-width: 28rem;
     }
 }
