@@ -143,14 +143,6 @@ body {
     transform-style: preserve-3d;
 }
 
-/* Add styles to the form container */
-
-
-label {
-    font-size: 1rem;
-    margin-left: 2.4rem;
-    margin-right: 2.4rem;
-}
 
 
 /* Add a pointer when hovering over the thumbnail images */
