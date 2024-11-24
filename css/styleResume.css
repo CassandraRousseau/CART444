@@ -184,6 +184,8 @@ body {
 .container:hover .overlay{
     opacity: 1;
 }
+
+
 .icon{
     width:3rem;
     height:3rem;
@@ -241,36 +243,23 @@ body {
     h1{
         font-size: 6.5rem;
     }
-.imgFormat{
-    height:35rem;
-    width:25rem;
-    margin-left: 1rem;
-}
 
     .overlay {
         top:282vh;
         left:80vw;
     }
-    .bubble-icons{
-        max-width: 112rem;
-    }
+
 }
 
 @media screen and (max-width: 600px) {
     h1 {
         font-size: 5rem;
     }
-    .imgFormat{
-        height:25rem;
-        width:20rem;
-        margin-left: -1.5rem;
-    }
+
 
     .overlay {
         top:1503vh;
         left:33vw;
     }
-    .bubble-icons{
-        max-width: 28rem;
-    }
+
 }
