@@ -10,10 +10,17 @@ body {
   text-align: left;
   min-height:90vh;
 }
-h4 {
-  margin-bottom: 2.4rem;
-  padding:0;
-  line-height: 3.3rem;
+h1 {
+  margin-left: 3rem;
+  margin-top: 0;
+  margin-bottom:6rem;
+  font-size: 75%;
+}
+h2 {
+  font-size: 4rem;
+  margin-left: 2.4rem;
+  margin-top: 0;
+  margin-bottom:6rem;
 }
 #shuffle{
   width: 12rem;
