@@ -5,7 +5,7 @@ header{
   display: flex;
   flex-direction: column; /* Stack children vertically */
   align-items: left; /* Center items horizontally */
-  text-align: center; /* Center text */
+  text-align: left; /* Center text */
 }
 h1 {
   margin-left: 3rem;
