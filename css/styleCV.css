@@ -212,12 +212,13 @@ body {
 .column {
     float: left;
     width: 50%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 30%; /* Should be removed. Only for demonstration */
 
     background-color: #BCC1B7;
-    border-radius: 15%;
+    border-radius: 5rem;
+    padding:1.5rem;
     color:#2C3130;
+
 
   }
   
