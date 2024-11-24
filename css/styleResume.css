@@ -141,12 +141,6 @@ label {
     margin-right: 2.4rem;
 }
 
-.imgFormat {
-    margin-right:3rem;
-    margin-bottom:5rem;
-    border-radius: 6rem;
-
-}
 
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
@@ -227,6 +221,31 @@ label {
     margin-right: 1.2rem;
     margin-bottom:6rem;
 }
+
+.dark-pink-header{
+    background-color: #8C4A4D;
+    color: #EEECEB;
+    border-radius: 5rem;
+    padding:1.5rem;
+    max-width: 112rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom:2rem;
+    margin-top:1.5rem;
+    line-height:2.5rem;
+}
+.dark-green-header{
+    background-color: #5E6557;
+    color: #EEECEB;
+    border-radius: 5rem;
+    padding:1.5rem;
+    max-width: 112rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom:2rem;
+    margin-top:1.5rem;
+}
+
 .bubble-icons{
     background-color: #BCC1B7;
     border-radius: 5rem;
