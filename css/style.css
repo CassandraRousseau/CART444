@@ -87,7 +87,7 @@ h4 {
   flex-wrap: wrap;
 }
 
-button:hover {
+.boo:hover {
   background-color: #577836;
   color: #EEECEB;
   transition: background-color 0.5s, color 0.5s;
