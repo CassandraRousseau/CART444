@@ -58,11 +58,11 @@ font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
 background-color: #E3CACB;
   border: none;
   color:#2C3130;
-  padding: 2px; 
+  padding: 2.5rem; 
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1px;
+  font-size: 1vw;
   margin: 4px 2px;
   cursor: pointer;
 }
