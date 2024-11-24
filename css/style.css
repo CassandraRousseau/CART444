@@ -54,24 +54,30 @@ h4 {
 
 
 .button {
-  font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
-  background-color: #E3CACB;
-  font-size: 16px;
-font-weight:bold;
+font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
+background-color: #E3CACB;
   border: none;
-  color:#2C3130;
-  padding: 2.5rem; 
+  color: white;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  opacity: 1;
 }
 
 
 /* 
-align-items: center; 
+font-size: 1.7rem;
+font-weight:bold;
+color:#2C3130;
+border: none;
+padding: 2.5rem; 
+text-decoration: none;
+cursor: pointer;
+opacity: 1;
+align-items: center;
 margin: 3rem;
 justify-content: space-between;
 width: 22.375rem;
