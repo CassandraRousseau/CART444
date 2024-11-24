@@ -53,9 +53,9 @@ h4 {
 }
 
 
-.button {
+/* .button {
   background-color: #04AA6D; /* Green */
-  border: none;
+  /* border: none;
   color: white;
   padding: 20px;
   text-align: center;
@@ -63,9 +63,9 @@ h4 {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer;
-}
-.boo {
+  cursor: pointer; */
+/* } */ 
+.buttons {
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
   background-color: #E3CACB;
   font-size: 1.7rem;
