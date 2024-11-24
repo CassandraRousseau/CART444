@@ -53,9 +53,9 @@ h4 {
 }
 
 
-/* .button {
-  background-color: #04AA6D; /* Green */
-  /* border: none;
+.button {
+  background-color: #04AA6D; 
+  border: none;
   color: white;
   padding: 20px;
   text-align: center;
@@ -63,35 +63,15 @@ h4 {
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  cursor: pointer; */
-/* } */ 
-.buttons {
-  font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
-  background-color: #E3CACB;
-  font-size: 1.7rem;
-  font-weight:bold;
-  color:#2C3130;
-  border: none;
-  padding: 2.5rem; /* Adjusted padding: 150px top/bottom, 50px left/right */
-  text-decoration: none;
   cursor: pointer;
-  opacity: 1;
-  align-items: center; /* Center the buttons vertically */
-  margin: 3rem;
-  justify-content: space-between;
-  width: 22.375rem;
-  height:13.875rem;
-  border-radius: 1.25rem;
-  transform-origin: center;
-  display: flex;
-  flex-wrap: wrap;
 }
 
-.boo:hover {
+button:hover {
   background-color: #577836;
   color: #EEECEB;
   transition: background-color 0.5s, color 0.5s;
 }
+
 @media screen and (min-width: 1401px) {
   .dark-pink-header{
     margin-left: 75rem;
