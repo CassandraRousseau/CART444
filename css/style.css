@@ -61,7 +61,7 @@ h4 {
   flex-wrap: wrap;
 }
 
-.buttons > button {
+button {
   font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
   background-color: #E3CACB;
   font-size: 1.7rem;
