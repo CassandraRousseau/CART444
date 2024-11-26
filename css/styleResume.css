@@ -53,11 +53,11 @@ li{
     margin-bottom: 0.5rem;
 }
 table {
-    border-spacing: 20rem;
+    border-spacing: 25rem;
   }
 td{
-padding-left: 5rem;
-padding-right: 5rem;
+padding-left: 2rem;
+padding-right: 2rem;
 
 }
 #menu{
