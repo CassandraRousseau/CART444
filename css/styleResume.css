@@ -53,12 +53,9 @@ li{
     margin-bottom: 0.5rem;
 }
 table {
-    border-spacing: 25rem;
+    border-spacing: 27rem;
   }
-td{
-padding-left: 2rem;
 
-}
 #menu{
     width:6.25rem;
     height:6.25rem;
