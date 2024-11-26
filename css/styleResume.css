@@ -52,9 +52,12 @@ li{
     margin-left: 2.4rem;
     margin-bottom: 0.5rem;
 }
+table {
+    border-spacing: 10rem;
+  }
 td{
-padding-left: 18rem;
-padding-right: 18rem;
+padding-left: 10rem;
+padding-right: 10rem;
 
 }
 #menu{
