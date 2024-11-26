@@ -55,7 +55,9 @@ li{
 table {
     border-spacing: 27rem;
   }
-
+td{
+    white-space: nowrap;
+}
 #menu{
     width:6.25rem;
     height:6.25rem;
