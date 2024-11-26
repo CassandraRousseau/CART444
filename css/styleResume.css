@@ -52,6 +52,10 @@ li{
     margin-left: 2.4rem;
     margin-bottom: 0.5rem;
 }
+td{
+padding: 0 1.5rem;
+
+}
 #menu{
     width:6.25rem;
     height:6.25rem;
@@ -216,7 +220,6 @@ body {
 }
 .bubble-green{
     background-color: #BCC1B7;
-    column-gap: 3rem;
     border-radius: 5rem;
     padding:1.5rem;
     max-width: 112rem;
