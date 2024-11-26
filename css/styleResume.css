@@ -216,6 +216,7 @@ body {
 }
 .bubble-green{
     background-color: #BCC1B7;
+    column-gap: 3rem;
     border-radius: 5rem;
     padding:1.5rem;
     max-width: 112rem;
