@@ -228,7 +228,7 @@ label {
     background-color: #BCC1B7;
     border-radius: 5rem;
     padding:1.5rem;
-   width: 102rem;
+   max-width: 102rem;
     color:#2C3130;
     margin-left: 1.2rem;
     margin-right: 1.2rem;
