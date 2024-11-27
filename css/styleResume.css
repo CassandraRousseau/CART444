@@ -53,9 +53,6 @@ li{
     margin-bottom: 0.5rem;
 }
 
-td{
-    white-space: nowrap;
-}
 #menu{
     width:6.25rem;
     height:6.25rem;
@@ -253,8 +250,12 @@ body {
         font-size: 6.5rem;
     }
     table {
-        border-spacing: 5rem 0;
+        border-spacing: 1rem 0;
       }
+      
+td{
+    white-space: wrap;
+}
     .overlay {
         top:5vh;
         left:80vw;
@@ -271,6 +272,9 @@ body {
         border-spacing: 20rem 0;
       }
 
+      td{
+        white-space: nowrap;
+    }
     .overlay {
         top:1vh;
         left:33vw;
