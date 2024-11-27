@@ -279,11 +279,12 @@ body {
    
     table {
         border-spacing: 0;
-        overflow-x:auto;
+
       }
       
 td{
     white-space: wrap;
+    overflow-x:auto;
 }
     .overlay {
         top:30vh;
