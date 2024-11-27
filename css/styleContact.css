@@ -230,10 +230,10 @@ label {
     border-radius: 5rem;
    max-width: 40rem;
     color:#2C3130;
-    margin-left: 0;
+    margin-left: 1.2rem;
     margin-right: 1.2rem;
     margin-bottom:6rem;
-    border-spacing: 10rem 0;
+    border-spacing: 9rem 0;
     padding: 2rem 0;
     white-space: wrap;
 }
