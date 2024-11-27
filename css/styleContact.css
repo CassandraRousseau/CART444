@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+header{
+    font-family: 'Atkinson Hyperlegible', 'Roboto Serif', sans-serif;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: left; /* Center items horizontally */
+    text-align: left; /* Center text */
+  }
+  h1 {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+    margin-left: 3.2rem;
+    margin-top: 0;
+    margin-bottom:6rem;
+  }
+h3 {
+    font-size: 3.5rem;
+    margin-left: 2.4rem;
+
+}
+h4 {
+    font-size: 3rem;
+    margin-left: 2.4rem;
+}
+.headlines{
+     font-size: 2.4rem;
+     margin-left: 2.4rem;
+ }
+p {
+    font-size: 1.7rem;
+    margin-left: 2.4rem;
+}
+li{
+    font-size: 1rem;
+    margin-left: 2.4rem;
+}
+
+#menu{
+    width:6.25rem;
+    height:6.25rem;
+    top: 0.5rem;
+    right: 1rem;
+    left: width;
+    margin-left: auto; /* Pushes the image to the right */
+    margin-right: 1.2rem; /* Pushes the image to the right */
+    margin-top: 1.2rem; /* Pushes the image to the right */
+
+}
+
+#menu:hover{
+filter: contrast(200%);
+    transition: filter 0.5s;
+
+}
+body {
+    font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
+    background-color: #423531;
+    background-image: linear-gradient(#9A7F77,#6F5953,#423531,#322825,#211B19,#110D0C,#000000);
+    color:#EEECEB;
+    text-align: left; /* center the text */
+    min-height:90vh;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #EEDFE0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 3.75rem;
+}
+
+.sidenav a {
+    font-family: 'Atkinson Hyperlegible', 'Roboto Serif',sans-serif;
+    padding: 1.5rem 0.5rem 1.4rem 4.5rem;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #462526;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #F9F4F5;
+    background-color: #8C4A4D;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 1rem;
+    right: 1.563rem;
+    width:1.5rem;
+    height:1.5rem;
+    font-size: 2.25rem;
+    margin-left: 3.125rem;
+}
+
+
+@media screen and (max-height: 28.125rem) {
+    .sidenav {padding-top: 0.938rem;}
+    .sidenav a {font-size: 1.125rem;}
+}
+
+
+.parallax {
+    height: 31.25rem; /* fallback for older browsers */
+    width: 67.5rem;
+    font-size: 2rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 18.75rem;
+    perspective: 18.75rem;
+}
+
+.parallax__group {
+    position: relative;
+    height: 31.25rem; /* fallback for older browsers */
+    width: 67.5rem;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+/* Add styles to the form container */
+
+
+label {
+    font-size: 1rem;
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+}
+
+.imgFormat {
+    margin-right:3rem;
+    margin-bottom:5rem;
+    border-radius: 6rem;
+
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+
+.footer {
+    padding: 1.563rem; /* some padding */
+    position: relative; /* Ensure positioning context for absolute positioning */
+}
+
+.text {
+    font-size: 1.6rem;
+}
+#shuffle{
+    width: 6.25rem;
+    height: 6.25rem;
+    margin-bottom:1.2rem;
+    margin-right:1.2rem;
+    margin-left: auto;
+    display: flex;
+}
+.container {
+    position: block;
+}
+
+.overlay {
+    position: absolute;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+#shuffle:hover{
+    filter: contrast(200%);
+    transition: filter 0.5s;
+}
+.container:hover .overlay{
+    opacity: 1;
+}
+.icon{
+    width:3rem;
+    height:3rem;
+    margin-left: 5rem;
+}
+.icon:hover {
+    opacity: 0.6;
+    transition: opacity 0.5s;
+}
+@-webkit-keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+
+.bubble-pink{
+    background-color: #FFE1E1;
+    border-radius: 5rem;
+    padding:1.5rem;
+    max-width: 112rem;
+    color:#2C3130;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom:6rem;
+}
+.bubble-green{
+    background-color: #BCC1B7;
+    border-radius: 5rem;
+    padding:1.5rem;
+    max-width: 102rem;
+    color:#2C3130;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-bottom:6rem;
+}
+.bubble-icons{
+    background-color: #BCC1B7;
+    border-radius: 5rem;
+   max-width: 100rem;
+    color:#2C3130;
+    margin-left: 0;
+    margin-right: 1.2rem;
+    margin-bottom:6rem;
+    border-spacing: 30rem 0;
+    padding: 2rem 0;
+    white-space: nowrap;
+}
+@media screen and (min-width: 601px) {
+    h1{
+        font-size: 6.5rem;
+    }
+.imgFormat{
+    height:35rem;
+    width:25rem;
+    margin-left: 1rem;
+}
+
+    .overlay {
+        top:282vh;
+        left:80vw;
+    }
+    .bubble-icons{
+        max-width: 112rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 5rem;
+    }
+    .imgFormat{
+        height:25rem;
+        width:20rem;
+        margin-left: -1.5rem;
+    }
+
+    .overlay {
+        top:1503vh;
+        left:33vw;
+    }
+    .bubble-icons{
+        max-width: 28rem;
+    }
+}
