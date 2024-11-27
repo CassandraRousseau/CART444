@@ -40,6 +40,10 @@ li{
     font-size: 1rem;
     margin-left: 2.4rem;
 }
+table {
+    border-spacing: 12rem 0;
+  }
+
 #menu{
     width:6.25rem;
     height:6.25rem;
