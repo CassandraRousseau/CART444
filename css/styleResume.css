@@ -285,12 +285,12 @@ td{
     white-space: wrap;
 }
     .overlay {
-        top:1vh;
+        top:30vh;
         left:33vw;
     }
     .bubble-green{
         padding:0;
-        max-width: 1rem;
+        max-width: 0.5rem;
         margin-bottom:3rem;
     }
 
