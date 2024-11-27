@@ -52,9 +52,7 @@ li{
     margin-left: 2.4rem;
     margin-bottom: 0.5rem;
 }
-table {
-    border-spacing: 20rem 0;
-  }
+
 td{
     white-space: nowrap;
 }
@@ -254,11 +252,14 @@ body {
     h1{
         font-size: 6.5rem;
     }
-
+    table {
+        border-spacing: 10rem 0;
+      }
     .overlay {
         top:5vh;
         left:80vw;
     }
+
 
 }
 
@@ -266,11 +267,14 @@ body {
     h1 {
         font-size: 5rem;
     }
-
+    table {
+        border-spacing: 20rem 0;
+      }
 
     .overlay {
         top:1vh;
         left:33vw;
     }
+    
 
 }
